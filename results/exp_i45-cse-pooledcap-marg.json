@@ -1,0 +1,42 @@
+{
+ "exp_id": "i45-cse-pooledcap-marg",
+ "config": {
+  "exp_id": "i45-cse-pooledcap-marg",
+  "variant": "csebb",
+  "route": "ltt_split_pooledcap",
+  "margin": 0.0,
+  "grouping": "marginal",
+  "matching": "intersect70",
+  "alpha": 0.45,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.28913061076855473,
+  "q95_miss_share": 0.30349027024661246,
+  "fp_per_h_mean": 6498.199296618736,
+  "fp_per_h_std": 69.68142457029435
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.0,
+  "coffee_machine": 0.0,
+  "cutlery_dishes": 0.0,
+  "door_open_close": 0.0,
+  "footsteps": 0.0,
+  "keyboard_typing": 0.0,
+  "keychain": 0.0,
+  "light_switch": 0.0,
+  "microwave": 0.0,
+  "phone_ringing": 0.0,
+  "running_water": 0.0,
+  "toilet_flushing": 0.0,
+  "vacuum_cleaner": 0.0,
+  "wardrobe_drawer_open_close": 0.0,
+  "window_open_close": 0.0
+ },
+ "runtime_s": 1.1
+}

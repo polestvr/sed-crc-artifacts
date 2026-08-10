@@ -1,0 +1,22 @@
+{
+ "exp_id": "XD-c60-seb2med",
+ "config": {
+  "exp_id": "XD-c60-seb2med",
+  "cal_variant": "csebb",
+  "deploy_variant": "medfilt",
+  "route": "ltt_bonf_clipmean",
+  "grouping": "marginal",
+  "matching": "collar",
+  "alpha": 0.6,
+  "delta": 0.05,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 99,
+  "mean_miss_share": 0.5563483540991059,
+  "q95_miss_share": 0.5813085103960284,
+  "fp_per_h_mean": 380.22394541895375,
+  "fp_per_h_std": 9.814267522154333
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "exp_id": "i20-cse-split50-marg",
+ "config": {
+  "exp_id": "i20-cse-split50-marg",
+  "variant": "csebb",
+  "route": "ltt_split_cm50",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 98,
+  "mean_miss_share": 0.16407531794587008,
+  "q95_miss_share": 0.19517248349279073,
+  "fp_per_h_mean": 834.3659608968463,
+  "fp_per_h_std": 616.6243302516909
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.058,
+  "coffee_machine": 0.058,
+  "cutlery_dishes": 0.058,
+  "door_open_close": 0.058,
+  "footsteps": 0.058,
+  "keyboard_typing": 0.058,
+  "keychain": 0.058,
+  "light_switch": 0.058,
+  "microwave": 0.058,
+  "phone_ringing": 0.058,
+  "running_water": 0.058,
+  "toilet_flushing": 0.058,
+  "vacuum_cleaner": 0.058,
+  "wardrobe_drawer_open_close": 0.058,
+  "window_open_close": 0.058
+ },
+ "runtime_s": 1.3
+}

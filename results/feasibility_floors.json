@@ -1,0 +1,170 @@
+{
+ "collar/medfilt": {
+  "pooled_floor": 0.5001988862370724,
+  "argmin_lam": 0.34800000000000003,
+  "per_class_floor": {
+   "bell_ringing": 0.279,
+   "coffee_machine": 0.471,
+   "cutlery_dishes": 0.538,
+   "door_open_close": 0.48,
+   "footsteps": 0.652,
+   "keyboard_typing": 0.402,
+   "keychain": 0.52,
+   "light_switch": 0.371,
+   "microwave": 0.497,
+   "phone_ringing": 0.386,
+   "running_water": 0.227,
+   "toilet_flushing": 0.367,
+   "vacuum_cleaner": 0.282,
+   "wardrobe_drawer_open_close": 0.599,
+   "window_open_close": 0.429
+  }
+ },
+ "onset-only/medfilt": {
+  "pooled_floor": 0.425417661097852,
+  "argmin_lam": 0.34800000000000003,
+  "per_class_floor": {
+   "bell_ringing": 0.221,
+   "coffee_machine": 0.397,
+   "cutlery_dishes": 0.422,
+   "door_open_close": 0.398,
+   "footsteps": 0.604,
+   "keyboard_typing": 0.34,
+   "keychain": 0.456,
+   "light_switch": 0.274,
+   "microwave": 0.387,
+   "phone_ringing": 0.311,
+   "running_water": 0.205,
+   "toilet_flushing": 0.267,
+   "vacuum_cleaner": 0.235,
+   "wardrobe_drawer_open_close": 0.515,
+   "window_open_close": 0.342
+  }
+ },
+ "intersect70/medfilt": {
+  "pooled_floor": 0.35759745425616546,
+  "argmin_lam": 0.243,
+  "per_class_floor": {
+   "bell_ringing": 0.212,
+   "coffee_machine": 0.176,
+   "cutlery_dishes": 0.372,
+   "door_open_close": 0.468,
+   "footsteps": 0.375,
+   "keyboard_typing": 0.123,
+   "keychain": 0.354,
+   "light_switch": 0.563,
+   "microwave": 0.184,
+   "phone_ringing": 0.237,
+   "running_water": 0.099,
+   "toilet_flushing": 0.217,
+   "vacuum_cleaner": 0.047,
+   "wardrobe_drawer_open_close": 0.541,
+   "window_open_close": 0.362
+  }
+ },
+ "intersect50/medfilt": {
+  "pooled_floor": 0.20445505171042164,
+  "argmin_lam": 0.145,
+  "per_class_floor": {
+   "bell_ringing": 0.106,
+   "coffee_machine": 0.074,
+   "cutlery_dishes": 0.176,
+   "door_open_close": 0.26,
+   "footsteps": 0.204,
+   "keyboard_typing": 0.04,
+   "keychain": 0.216,
+   "light_switch": 0.324,
+   "microwave": 0.086,
+   "phone_ringing": 0.154,
+   "running_water": 0.05,
+   "toilet_flushing": 0.108,
+   "vacuum_cleaner": 0.0,
+   "wardrobe_drawer_open_close": 0.363,
+   "window_open_close": 0.163
+  }
+ },
+ "collar/csebb": {
+  "pooled_floor": 0.4226332537788385,
+  "argmin_lam": 0.0,
+  "per_class_floor": {
+   "bell_ringing": 0.24,
+   "coffee_machine": 0.397,
+   "cutlery_dishes": 0.451,
+   "door_open_close": 0.417,
+   "footsteps": 0.61,
+   "keyboard_typing": 0.383,
+   "keychain": 0.465,
+   "light_switch": 0.216,
+   "microwave": 0.571,
+   "phone_ringing": 0.34,
+   "running_water": 0.199,
+   "toilet_flushing": 0.417,
+   "vacuum_cleaner": 0.271,
+   "wardrobe_drawer_open_close": 0.462,
+   "window_open_close": 0.362
+  }
+ },
+ "onset-only/csebb": {
+  "pooled_floor": 0.26591089896579156,
+  "argmin_lam": 0.0,
+  "per_class_floor": {
+   "bell_ringing": 0.135,
+   "coffee_machine": 0.206,
+   "cutlery_dishes": 0.242,
+   "door_open_close": 0.239,
+   "footsteps": 0.51,
+   "keyboard_typing": 0.239,
+   "keychain": 0.228,
+   "light_switch": 0.105,
+   "microwave": 0.233,
+   "phone_ringing": 0.194,
+   "running_water": 0.152,
+   "toilet_flushing": 0.192,
+   "vacuum_cleaner": 0.176,
+   "wardrobe_drawer_open_close": 0.263,
+   "window_open_close": 0.214
+  }
+ },
+ "intersect70/csebb": {
+  "pooled_floor": 0.287788385043755,
+  "argmin_lam": 0.0,
+  "per_class_floor": {
+   "bell_ringing": 0.144,
+   "coffee_machine": 0.147,
+   "cutlery_dishes": 0.305,
+   "door_open_close": 0.407,
+   "footsteps": 0.328,
+   "keyboard_typing": 0.089,
+   "keychain": 0.281,
+   "light_switch": 0.476,
+   "microwave": 0.184,
+   "phone_ringing": 0.226,
+   "running_water": 0.062,
+   "toilet_flushing": 0.133,
+   "vacuum_cleaner": 0.012,
+   "wardrobe_drawer_open_close": 0.415,
+   "window_open_close": 0.301
+  }
+ },
+ "intersect50/csebb": {
+  "pooled_floor": 0.11416070007955449,
+  "argmin_lam": 0.0,
+  "per_class_floor": {
+   "bell_ringing": 0.077,
+   "coffee_machine": 0.074,
+   "cutlery_dishes": 0.08,
+   "door_open_close": 0.163,
+   "footsteps": 0.134,
+   "keyboard_typing": 0.028,
+   "keychain": 0.123,
+   "light_switch": 0.168,
+   "microwave": 0.11,
+   "phone_ringing": 0.098,
+   "running_water": 0.016,
+   "toilet_flushing": 0.058,
+   "vacuum_cleaner": 0.0,
+   "wardrobe_drawer_open_close": 0.211,
+   "window_open_close": 0.117
+  }
+ }
+}

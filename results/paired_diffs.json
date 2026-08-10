@@ -1,0 +1,68 @@
+{
+ "i20-200cand": {
+  "config": {
+   "variant": "csebb",
+   "matching": "intersect50",
+   "alpha": 0.2,
+   "route_a": "ltt_split_clipmean",
+   "route_b": "ltt_bonf_cm200",
+   "n_splits": 100
+  },
+  "fph_a_mean": 706.0,
+  "fph_b_mean": 946.3,
+  "mean_diff_a_minus_b": -240.3,
+  "ci95_normal": [
+   -276.7,
+   -203.9
+  ],
+  "ci95_percentile": [
+   -616.9,
+   144.3
+  ],
+  "frac_splits_a_cheaper": 0.85
+ },
+ "i20-50cand": {
+  "config": {
+   "variant": "csebb",
+   "matching": "intersect50",
+   "alpha": 0.2,
+   "route_a": "ltt_split_cm50",
+   "route_b": "ltt_bonf_clipmean",
+   "n_splits": 100
+  },
+  "fph_a_mean": 834.4,
+  "fph_b_mean": 887.5,
+  "mean_diff_a_minus_b": -53.1,
+  "ci95_normal": [
+   -168.4,
+   62.1
+  ],
+  "ci95_percentile": [
+   -626.6,
+   394.2
+  ],
+  "frac_splits_a_cheaper": 0.56
+ },
+ "i20-max": {
+  "config": {
+   "variant": "csebbmax",
+   "matching": "intersect50",
+   "alpha": 0.2,
+   "route_a": "ltt_split_clipmean",
+   "route_b": "ltt_bonf_clipmean",
+   "n_splits": 100
+  },
+  "fph_a_mean": 600.9,
+  "fph_b_mean": 717.8,
+  "mean_diff_a_minus_b": -116.9,
+  "ci95_normal": [
+   -147.7,
+   -86.1
+  ],
+  "ci95_percentile": [
+   -409.7,
+   182.8
+  ],
+  "frac_splits_a_cheaper": 0.8
+ }
+}

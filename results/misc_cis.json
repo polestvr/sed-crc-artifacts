@@ -1,0 +1,259 @@
+{
+ "spearman": {
+  "rho": 0.344,
+  "p": 2.7739982632764464e-29,
+  "n_clips": 1007,
+  "ci95_bootstrap": [
+   0.286,
+   0.4
+  ]
+ },
+ "subgroups": {
+  "stress_SG-c60.json": {
+   "n_groups": 11,
+   "rows": {
+    "device/ios": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "device/android": {
+     "n_ok": 90,
+     "n_splits": 100,
+     "p_onesided": 0.028188294163416307,
+     "p_bonferroni": 0.3100712357975794,
+     "significant_after_bonf": false
+    },
+    "device/other": {
+     "n_ok": 57,
+     "n_splits": 100,
+     "p_onesided": 2.498314921806437e-29,
+     "p_bonferroni": 2.7481464139870807e-28,
+     "significant_after_bonf": true
+    },
+    "placement/static": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "placement/mobile": {
+     "n_ok": 84,
+     "n_splits": 100,
+     "p_onesided": 3.7054076177585644e-05,
+     "p_bonferroni": 0.0004075948379534421,
+     "significant_after_bonf": true
+    },
+    "env/kitchen": {
+     "n_ok": 97,
+     "n_splits": 100,
+     "p_onesided": 0.8817370188148794,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "env/bedroom": {
+     "n_ok": 96,
+     "n_splits": 100,
+     "p_onesided": 0.7421613408839842,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "env/hallway": {
+     "n_ok": 51,
+     "n_splits": 100,
+     "p_onesided": 1.3570561760298968e-36,
+     "p_bonferroni": 1.4927617936328864e-35,
+     "significant_after_bonf": true
+    },
+    "env/living_room": {
+     "n_ok": 26,
+     "n_splits": 100,
+     "p_onesided": 9.940717379356434e-74,
+     "p_bonferroni": 1.0934789117292077e-72,
+     "significant_after_bonf": true
+    },
+    "env/office": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "env/bathroom": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    }
+   }
+  },
+  "stress_SG-i20-max.json": {
+   "n_groups": 11,
+   "rows": {
+    "device/ios": {
+     "n_ok": 99,
+     "n_splits": 100,
+     "p_onesided": 0.994079470779666,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "device/android": {
+     "n_ok": 94,
+     "n_splits": 100,
+     "p_onesided": 0.3840008720438597,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "device/other": {
+     "n_ok": 60,
+     "n_splits": 100,
+     "p_onesided": 6.238625307670775e-26,
+     "p_bonferroni": 6.8624878384378525e-25,
+     "significant_after_bonf": true
+    },
+    "placement/static": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "placement/mobile": {
+     "n_ok": 75,
+     "n_splits": 100,
+     "p_onesided": 1.8159668438290185e-11,
+     "p_bonferroni": 1.9975635282119204e-10,
+     "significant_after_bonf": true
+    },
+    "env/kitchen": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "env/bedroom": {
+     "n_ok": 98,
+     "n_splits": 100,
+     "p_onesided": 0.962918790672645,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "env/hallway": {
+     "n_ok": 26,
+     "n_splits": 100,
+     "p_onesided": 9.940717379356434e-74,
+     "p_bonferroni": 1.0934789117292077e-72,
+     "significant_after_bonf": true
+    },
+    "env/living_room": {
+     "n_ok": 33,
+     "n_splits": 100,
+     "p_onesided": 3.771046002251186e-62,
+     "p_bonferroni": 4.1481506024763046e-61,
+     "significant_after_bonf": true
+    },
+    "env/office": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "env/bathroom": {
+     "n_ok": 94,
+     "n_splits": 100,
+     "p_onesided": 0.3840008720438597,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    }
+   }
+  },
+  "stress_SG-i20.json": {
+   "n_groups": 11,
+   "rows": {
+    "device/ios": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "device/android": {
+     "n_ok": 96,
+     "n_splits": 100,
+     "p_onesided": 0.7421613408839842,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "device/other": {
+     "n_ok": 59,
+     "n_splits": 100,
+     "p_onesided": 4.789204721185443e-27,
+     "p_bonferroni": 5.268125193303988e-26,
+     "significant_after_bonf": true
+    },
+    "placement/static": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "placement/mobile": {
+     "n_ok": 81,
+     "n_splits": 100,
+     "p_onesided": 5.012689424280743e-07,
+     "p_bonferroni": 5.5139583667088175e-06,
+     "significant_after_bonf": true
+    },
+    "env/kitchen": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "env/bedroom": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "env/hallway": {
+     "n_ok": 28,
+     "n_splits": 100,
+     "p_onesided": 2.569308494632675e-70,
+     "p_bonferroni": 2.8262393440959426e-69,
+     "significant_after_bonf": true
+    },
+    "env/living_room": {
+     "n_ok": 42,
+     "n_splits": 100,
+     "p_onesided": 1.1813087972717109e-48,
+     "p_bonferroni": 1.299439676998882e-47,
+     "significant_after_bonf": true
+    },
+    "env/office": {
+     "n_ok": 100,
+     "n_splits": 100,
+     "p_onesided": 1.0,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    },
+    "env/bathroom": {
+     "n_ok": 92,
+     "n_splits": 100,
+     "p_onesided": 0.12796047862037954,
+     "p_bonferroni": 1.0,
+     "significant_after_bonf": false
+    }
+   }
+  }
+ }
+}

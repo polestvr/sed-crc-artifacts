@@ -1,0 +1,41 @@
+{
+ "exp_id": "i20-csebbmax-ltt_bonf-marg",
+ "config": {
+  "exp_id": "i20-csebbmax-ltt_bonf-marg",
+  "variant": "csebbmax",
+  "route": "ltt_bonf_clipmean",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.16149560084030903,
+  "q95_miss_share": 0.18263067958207743,
+  "fp_per_h_mean": 717.8040839014818,
+  "fp_per_h_std": 124.47893208622727
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.08700000000000001,
+  "coffee_machine": 0.08700000000000001,
+  "cutlery_dishes": 0.08700000000000001,
+  "door_open_close": 0.08700000000000001,
+  "footsteps": 0.08700000000000001,
+  "keyboard_typing": 0.08700000000000001,
+  "keychain": 0.08700000000000001,
+  "light_switch": 0.08700000000000001,
+  "microwave": 0.08700000000000001,
+  "phone_ringing": 0.08700000000000001,
+  "running_water": 0.08700000000000001,
+  "toilet_flushing": 0.08700000000000001,
+  "vacuum_cleaner": 0.08700000000000001,
+  "wardrobe_drawer_open_close": 0.08700000000000001,
+  "window_open_close": 0.08700000000000001
+ },
+ "runtime_s": 1.4
+}

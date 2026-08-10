@@ -1,0 +1,42 @@
+{
+ "exp_id": "c60-med-tune2a-m0",
+ "config": {
+  "exp_id": "c60-med-tune2a-m0",
+  "variant": "medfilt",
+  "route": "valtuned_alpha",
+  "margin": 0.0,
+  "grouping": "marginal",
+  "matching": "collar",
+  "alpha": 0.6,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 93,
+  "mean_miss_share": 0.5877438445320514,
+  "q95_miss_share": 0.6006338295903267,
+  "fp_per_h_mean": 387.1668117697832,
+  "fp_per_h_std": 10.038472098496111
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.767,
+  "coffee_machine": 0.767,
+  "cutlery_dishes": 0.767,
+  "door_open_close": 0.767,
+  "footsteps": 0.767,
+  "keyboard_typing": 0.767,
+  "keychain": 0.767,
+  "light_switch": 0.767,
+  "microwave": 0.767,
+  "phone_ringing": 0.767,
+  "running_water": 0.767,
+  "toilet_flushing": 0.767,
+  "vacuum_cleaner": 0.767,
+  "wardrobe_drawer_open_close": 0.767,
+  "window_open_close": 0.767
+ },
+ "runtime_s": 0.8
+}

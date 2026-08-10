@@ -1,0 +1,41 @@
+{
+ "exp_id": "VER-c60",
+ "config": {
+  "exp_id": "VER-c60",
+  "variant": "csebb",
+  "route": "ltt_bonf_clipmean",
+  "grouping": "marginal",
+  "matching": "collar",
+  "alpha": 0.6,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 500
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 98,
+  "mean_miss_share": 0.5610632361125324,
+  "q95_miss_share": 0.5864946067957875,
+  "fp_per_h_mean": 226.88391464172514,
+  "fp_per_h_std": 10.458346083591765
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.707,
+  "coffee_machine": 0.707,
+  "cutlery_dishes": 0.707,
+  "door_open_close": 0.707,
+  "footsteps": 0.707,
+  "keyboard_typing": 0.707,
+  "keychain": 0.707,
+  "light_switch": 0.707,
+  "microwave": 0.707,
+  "phone_ringing": 0.707,
+  "running_water": 0.707,
+  "toilet_flushing": 0.707,
+  "vacuum_cleaner": 0.707,
+  "wardrobe_drawer_open_close": 0.707,
+  "window_open_close": 0.707
+ },
+ "runtime_s": 1.4
+}

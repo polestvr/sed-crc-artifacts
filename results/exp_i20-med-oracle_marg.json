@@ -1,0 +1,40 @@
+{
+ "exp_id": "i20-med-oracle_marg",
+ "config": {
+  "exp_id": "i20-med-oracle_marg",
+  "variant": "medfilt",
+  "route": "oracle_marg",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 29,
+  "mean_miss_share": 0.2054708962424614,
+  "q95_miss_share": 0.21513891212920636,
+  "fp_per_h_mean": 238.9851377478985,
+  "fp_per_h_std": 22.402794742085895
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.154,
+  "coffee_machine": 0.154,
+  "cutlery_dishes": 0.154,
+  "door_open_close": 0.154,
+  "footsteps": 0.154,
+  "keyboard_typing": 0.154,
+  "keychain": 0.154,
+  "light_switch": 0.154,
+  "microwave": 0.154,
+  "phone_ringing": 0.154,
+  "running_water": 0.154,
+  "toilet_flushing": 0.154,
+  "vacuum_cleaner": 0.154,
+  "wardrobe_drawer_open_close": 0.154,
+  "window_open_close": 0.154
+ },
+ "runtime_s": 1.0
+}

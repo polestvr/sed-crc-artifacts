@@ -1,0 +1,42 @@
+{
+ "exp_id": "i45-cse-tune2a-m0",
+ "config": {
+  "exp_id": "i45-cse-tune2a-m0",
+  "variant": "csebb",
+  "route": "valtuned_alpha",
+  "margin": 0.0,
+  "grouping": "marginal",
+  "matching": "intersect70",
+  "alpha": 0.45,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 10,
+  "mean_miss_share": 0.46102769787410347,
+  "q95_miss_share": 0.4751077346839042,
+  "fp_per_h_mean": 57.62383285121595,
+  "fp_per_h_std": 3.7387612694959196
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.728,
+  "coffee_machine": 0.728,
+  "cutlery_dishes": 0.728,
+  "door_open_close": 0.728,
+  "footsteps": 0.728,
+  "keyboard_typing": 0.728,
+  "keychain": 0.728,
+  "light_switch": 0.728,
+  "microwave": 0.728,
+  "phone_ringing": 0.728,
+  "running_water": 0.728,
+  "toilet_flushing": 0.728,
+  "vacuum_cleaner": 0.728,
+  "wardrobe_drawer_open_close": 0.728,
+  "window_open_close": 0.728
+ },
+ "runtime_s": 0.8
+}

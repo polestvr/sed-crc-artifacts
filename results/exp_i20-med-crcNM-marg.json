@@ -1,0 +1,41 @@
+{
+ "exp_id": "i20-med-crcNM-marg",
+ "config": {
+  "exp_id": "i20-med-crcNM-marg",
+  "variant": "medfilt",
+  "route": "crc_nm",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 21,
+  "mean_miss_share": 0.20762061360096806,
+  "q95_miss_share": 0.2198190316465696,
+  "fp_per_h_mean": 254.86141610404792,
+  "fp_per_h_std": 17.58068059711927
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.136,
+  "coffee_machine": 0.136,
+  "cutlery_dishes": 0.136,
+  "door_open_close": 0.136,
+  "footsteps": 0.136,
+  "keyboard_typing": 0.136,
+  "keychain": 0.136,
+  "light_switch": 0.136,
+  "microwave": 0.136,
+  "phone_ringing": 0.136,
+  "running_water": 0.136,
+  "toilet_flushing": 0.136,
+  "vacuum_cleaner": 0.136,
+  "wardrobe_drawer_open_close": 0.136,
+  "window_open_close": 0.136
+ },
+ "runtime_s": 1.4
+}

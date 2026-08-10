@@ -1,0 +1,2360 @@
+{
+ "collar/raw": {
+  "grid1001": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 35,
+     "sum_neg_magnitude": 72,
+     "max_neg_step": 10,
+     "clips_with_nonmono": 57,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 55,
+     "sum_neg_magnitude": 73,
+     "max_neg_step": 4,
+     "clips_with_nonmono": 52,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 238,
+     "sum_neg_magnitude": 455,
+     "max_neg_step": 12,
+     "clips_with_nonmono": 235,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 183,
+     "sum_neg_magnitude": 402,
+     "max_neg_step": 18,
+     "clips_with_nonmono": 289,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 266,
+     "sum_neg_magnitude": 522,
+     "max_neg_step": 12,
+     "clips_with_nonmono": 469,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 169,
+     "sum_neg_magnitude": 225,
+     "max_neg_step": 6,
+     "clips_with_nonmono": 160,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 158,
+     "sum_neg_magnitude": 269,
+     "max_neg_step": 8,
+     "clips_with_nonmono": 176,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 129,
+     "sum_neg_magnitude": 248,
+     "max_neg_step": 15,
+     "clips_with_nonmono": 212,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 95,
+     "sum_neg_magnitude": 121,
+     "max_neg_step": 4,
+     "clips_with_nonmono": 86,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 145,
+     "sum_neg_magnitude": 272,
+     "max_neg_step": 12,
+     "clips_with_nonmono": 202,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 146,
+     "sum_neg_magnitude": 263,
+     "max_neg_step": 11,
+     "clips_with_nonmono": 261,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 59,
+     "sum_neg_magnitude": 87,
+     "max_neg_step": 7,
+     "clips_with_nonmono": 91,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 37,
+     "sum_neg_magnitude": 52,
+     "max_neg_step": 6,
+     "clips_with_nonmono": 52,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 117,
+     "sum_neg_magnitude": 240,
+     "max_neg_step": 17,
+     "clips_with_nonmono": 171,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 66,
+     "sum_neg_magnitude": 135,
+     "max_neg_step": 14,
+     "clips_with_nonmono": 119,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 1898,
+    "total_neg_magnitude": 3436,
+    "total_refs": 4919
+   }
+  },
+  "grid200": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 19,
+     "sum_neg_magnitude": 66,
+     "max_neg_step": 32,
+     "clips_with_nonmono": 55,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 31,
+     "sum_neg_magnitude": 65,
+     "max_neg_step": 11,
+     "clips_with_nonmono": 50,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 86,
+     "sum_neg_magnitude": 375,
+     "max_neg_step": 41,
+     "clips_with_nonmono": 231,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 57,
+     "sum_neg_magnitude": 328,
+     "max_neg_step": 54,
+     "clips_with_nonmono": 286,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 75,
+     "sum_neg_magnitude": 389,
+     "max_neg_step": 45,
+     "clips_with_nonmono": 460,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 81,
+     "sum_neg_magnitude": 193,
+     "max_neg_step": 16,
+     "clips_with_nonmono": 160,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 54,
+     "sum_neg_magnitude": 204,
+     "max_neg_step": 34,
+     "clips_with_nonmono": 176,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 50,
+     "sum_neg_magnitude": 227,
+     "max_neg_step": 41,
+     "clips_with_nonmono": 209,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 38,
+     "sum_neg_magnitude": 94,
+     "max_neg_step": 10,
+     "clips_with_nonmono": 85,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 59,
+     "sum_neg_magnitude": 236,
+     "max_neg_step": 45,
+     "clips_with_nonmono": 200,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 61,
+     "sum_neg_magnitude": 246,
+     "max_neg_step": 28,
+     "clips_with_nonmono": 259,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 35,
+     "sum_neg_magnitude": 79,
+     "max_neg_step": 22,
+     "clips_with_nonmono": 90,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 22,
+     "sum_neg_magnitude": 49,
+     "max_neg_step": 15,
+     "clips_with_nonmono": 50,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 43,
+     "sum_neg_magnitude": 186,
+     "max_neg_step": 49,
+     "clips_with_nonmono": 161,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 28,
+     "sum_neg_magnitude": 112,
+     "max_neg_step": 34,
+     "clips_with_nonmono": 113,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 739,
+    "total_neg_magnitude": 2849,
+    "total_refs": 4919
+   }
+  }
+ },
+ "collar/medfilt": {
+  "grid1001": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 36,
+     "sum_neg_magnitude": 72,
+     "max_neg_step": 8,
+     "clips_with_nonmono": 57,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 57,
+     "sum_neg_magnitude": 79,
+     "max_neg_step": 5,
+     "clips_with_nonmono": 52,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 244,
+     "sum_neg_magnitude": 458,
+     "max_neg_step": 14,
+     "clips_with_nonmono": 236,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 188,
+     "sum_neg_magnitude": 395,
+     "max_neg_step": 16,
+     "clips_with_nonmono": 288,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 272,
+     "sum_neg_magnitude": 509,
+     "max_neg_step": 12,
+     "clips_with_nonmono": 468,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 167,
+     "sum_neg_magnitude": 217,
+     "max_neg_step": 5,
+     "clips_with_nonmono": 160,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 163,
+     "sum_neg_magnitude": 262,
+     "max_neg_step": 9,
+     "clips_with_nonmono": 177,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 130,
+     "sum_neg_magnitude": 244,
+     "max_neg_step": 13,
+     "clips_with_nonmono": 214,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 97,
+     "sum_neg_magnitude": 120,
+     "max_neg_step": 4,
+     "clips_with_nonmono": 86,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 156,
+     "sum_neg_magnitude": 270,
+     "max_neg_step": 15,
+     "clips_with_nonmono": 204,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 151,
+     "sum_neg_magnitude": 266,
+     "max_neg_step": 9,
+     "clips_with_nonmono": 263,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 66,
+     "sum_neg_magnitude": 92,
+     "max_neg_step": 7,
+     "clips_with_nonmono": 91,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 35,
+     "sum_neg_magnitude": 51,
+     "max_neg_step": 6,
+     "clips_with_nonmono": 53,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 133,
+     "sum_neg_magnitude": 245,
+     "max_neg_step": 12,
+     "clips_with_nonmono": 172,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 69,
+     "sum_neg_magnitude": 137,
+     "max_neg_step": 15,
+     "clips_with_nonmono": 120,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 1964,
+    "total_neg_magnitude": 3417,
+    "total_refs": 4919
+   }
+  },
+  "grid200": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 19,
+     "sum_neg_magnitude": 63,
+     "max_neg_step": 30,
+     "clips_with_nonmono": 55,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 30,
+     "sum_neg_magnitude": 69,
+     "max_neg_step": 11,
+     "clips_with_nonmono": 50,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 75,
+     "sum_neg_magnitude": 361,
+     "max_neg_step": 40,
+     "clips_with_nonmono": 232,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 50,
+     "sum_neg_magnitude": 323,
+     "max_neg_step": 51,
+     "clips_with_nonmono": 284,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 74,
+     "sum_neg_magnitude": 380,
+     "max_neg_step": 42,
+     "clips_with_nonmono": 464,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 77,
+     "sum_neg_magnitude": 182,
+     "max_neg_step": 14,
+     "clips_with_nonmono": 160,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 56,
+     "sum_neg_magnitude": 199,
+     "max_neg_step": 31,
+     "clips_with_nonmono": 177,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 44,
+     "sum_neg_magnitude": 216,
+     "max_neg_step": 36,
+     "clips_with_nonmono": 207,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 46,
+     "sum_neg_magnitude": 99,
+     "max_neg_step": 10,
+     "clips_with_nonmono": 86,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 56,
+     "sum_neg_magnitude": 232,
+     "max_neg_step": 37,
+     "clips_with_nonmono": 200,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 67,
+     "sum_neg_magnitude": 243,
+     "max_neg_step": 27,
+     "clips_with_nonmono": 260,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 37,
+     "sum_neg_magnitude": 79,
+     "max_neg_step": 19,
+     "clips_with_nonmono": 90,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 22,
+     "sum_neg_magnitude": 47,
+     "max_neg_step": 14,
+     "clips_with_nonmono": 51,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 44,
+     "sum_neg_magnitude": 185,
+     "max_neg_step": 52,
+     "clips_with_nonmono": 165,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 26,
+     "sum_neg_magnitude": 116,
+     "max_neg_step": 35,
+     "clips_with_nonmono": 115,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 723,
+    "total_neg_magnitude": 2794,
+    "total_refs": 4919
+   }
+  }
+ },
+ "collar/csebb": {
+  "grid1001": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 0,
+    "total_neg_steps": 0,
+    "total_neg_magnitude": 0,
+    "total_refs": 4919
+   }
+  },
+  "grid200": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 0,
+    "total_neg_steps": 0,
+    "total_neg_magnitude": 0,
+    "total_refs": 4919
+   }
+  }
+ },
+ "intersect70/raw": {
+  "grid1001": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 28,
+     "sum_neg_magnitude": 70,
+     "max_neg_step": 21,
+     "clips_with_nonmono": 55,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 24,
+     "sum_neg_magnitude": 48,
+     "max_neg_step": 13,
+     "clips_with_nonmono": 38,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 198,
+     "sum_neg_magnitude": 515,
+     "max_neg_step": 40,
+     "clips_with_nonmono": 231,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 159,
+     "sum_neg_magnitude": 443,
+     "max_neg_step": 57,
+     "clips_with_nonmono": 293,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 171,
+     "sum_neg_magnitude": 668,
+     "max_neg_step": 48,
+     "clips_with_nonmono": 462,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 62,
+     "sum_neg_magnitude": 204,
+     "max_neg_step": 36,
+     "clips_with_nonmono": 126,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 123,
+     "sum_neg_magnitude": 308,
+     "max_neg_step": 46,
+     "clips_with_nonmono": 170,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 150,
+     "sum_neg_magnitude": 236,
+     "max_neg_step": 10,
+     "clips_with_nonmono": 211,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 44,
+     "sum_neg_magnitude": 103,
+     "max_neg_step": 15,
+     "clips_with_nonmono": 60,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 95,
+     "sum_neg_magnitude": 301,
+     "max_neg_step": 76,
+     "clips_with_nonmono": 198,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 45,
+     "sum_neg_magnitude": 216,
+     "max_neg_step": 58,
+     "clips_with_nonmono": 203,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 25,
+     "sum_neg_magnitude": 80,
+     "max_neg_step": 20,
+     "clips_with_nonmono": 88,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 6,
+     "sum_neg_magnitude": 36,
+     "max_neg_step": 27,
+     "clips_with_nonmono": 36,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 96,
+     "sum_neg_magnitude": 263,
+     "max_neg_step": 38,
+     "clips_with_nonmono": 174,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 56,
+     "sum_neg_magnitude": 143,
+     "max_neg_step": 39,
+     "clips_with_nonmono": 125,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 1282,
+    "total_neg_magnitude": 3634,
+    "total_refs": 4919
+   }
+  },
+  "grid200": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 14,
+     "sum_neg_magnitude": 64,
+     "max_neg_step": 42,
+     "clips_with_nonmono": 52,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 10,
+     "sum_neg_magnitude": 41,
+     "max_neg_step": 23,
+     "clips_with_nonmono": 35,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 66,
+     "sum_neg_magnitude": 437,
+     "max_neg_step": 135,
+     "clips_with_nonmono": 226,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 48,
+     "sum_neg_magnitude": 380,
+     "max_neg_step": 140,
+     "clips_with_nonmono": 291,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 48,
+     "sum_neg_magnitude": 579,
+     "max_neg_step": 189,
+     "clips_with_nonmono": 460,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 34,
+     "sum_neg_magnitude": 192,
+     "max_neg_step": 101,
+     "clips_with_nonmono": 125,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 45,
+     "sum_neg_magnitude": 253,
+     "max_neg_step": 116,
+     "clips_with_nonmono": 170,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 54,
+     "sum_neg_magnitude": 182,
+     "max_neg_step": 37,
+     "clips_with_nonmono": 203,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 22,
+     "sum_neg_magnitude": 82,
+     "max_neg_step": 54,
+     "clips_with_nonmono": 59,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 44,
+     "sum_neg_magnitude": 281,
+     "max_neg_step": 147,
+     "clips_with_nonmono": 193,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 20,
+     "sum_neg_magnitude": 208,
+     "max_neg_step": 156,
+     "clips_with_nonmono": 203,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 14,
+     "sum_neg_magnitude": 78,
+     "max_neg_step": 45,
+     "clips_with_nonmono": 87,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 3,
+     "sum_neg_magnitude": 35,
+     "max_neg_step": 33,
+     "clips_with_nonmono": 35,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 36,
+     "sum_neg_magnitude": 218,
+     "max_neg_step": 94,
+     "clips_with_nonmono": 164,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 23,
+     "sum_neg_magnitude": 126,
+     "max_neg_step": 71,
+     "clips_with_nonmono": 118,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 481,
+    "total_neg_magnitude": 3156,
+    "total_refs": 4919
+   }
+  }
+ },
+ "intersect70/medfilt": {
+  "grid1001": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 25,
+     "sum_neg_magnitude": 66,
+     "max_neg_step": 19,
+     "clips_with_nonmono": 54,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 22,
+     "sum_neg_magnitude": 45,
+     "max_neg_step": 13,
+     "clips_with_nonmono": 35,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 201,
+     "sum_neg_magnitude": 519,
+     "max_neg_step": 34,
+     "clips_with_nonmono": 231,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 161,
+     "sum_neg_magnitude": 442,
+     "max_neg_step": 42,
+     "clips_with_nonmono": 293,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 176,
+     "sum_neg_magnitude": 662,
+     "max_neg_step": 44,
+     "clips_with_nonmono": 461,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 58,
+     "sum_neg_magnitude": 199,
+     "max_neg_step": 33,
+     "clips_with_nonmono": 124,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 111,
+     "sum_neg_magnitude": 311,
+     "max_neg_step": 40,
+     "clips_with_nonmono": 170,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 142,
+     "sum_neg_magnitude": 226,
+     "max_neg_step": 9,
+     "clips_with_nonmono": 210,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 41,
+     "sum_neg_magnitude": 106,
+     "max_neg_step": 20,
+     "clips_with_nonmono": 62,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 99,
+     "sum_neg_magnitude": 298,
+     "max_neg_step": 67,
+     "clips_with_nonmono": 197,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 47,
+     "sum_neg_magnitude": 212,
+     "max_neg_step": 57,
+     "clips_with_nonmono": 203,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 28,
+     "sum_neg_magnitude": 84,
+     "max_neg_step": 19,
+     "clips_with_nonmono": 88,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 6,
+     "sum_neg_magnitude": 36,
+     "max_neg_step": 24,
+     "clips_with_nonmono": 36,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 106,
+     "sum_neg_magnitude": 264,
+     "max_neg_step": 30,
+     "clips_with_nonmono": 175,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 48,
+     "sum_neg_magnitude": 136,
+     "max_neg_step": 37,
+     "clips_with_nonmono": 125,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 1271,
+    "total_neg_magnitude": 3606,
+    "total_refs": 4919
+   }
+  },
+  "grid200": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 14,
+     "sum_neg_magnitude": 63,
+     "max_neg_step": 41,
+     "clips_with_nonmono": 53,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 10,
+     "sum_neg_magnitude": 40,
+     "max_neg_step": 25,
+     "clips_with_nonmono": 34,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 62,
+     "sum_neg_magnitude": 430,
+     "max_neg_step": 124,
+     "clips_with_nonmono": 225,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 48,
+     "sum_neg_magnitude": 368,
+     "max_neg_step": 132,
+     "clips_with_nonmono": 291,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 53,
+     "sum_neg_magnitude": 584,
+     "max_neg_step": 176,
+     "clips_with_nonmono": 460,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 33,
+     "sum_neg_magnitude": 193,
+     "max_neg_step": 99,
+     "clips_with_nonmono": 124,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 41,
+     "sum_neg_magnitude": 254,
+     "max_neg_step": 114,
+     "clips_with_nonmono": 170,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 53,
+     "sum_neg_magnitude": 173,
+     "max_neg_step": 35,
+     "clips_with_nonmono": 202,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 16,
+     "sum_neg_magnitude": 78,
+     "max_neg_step": 52,
+     "clips_with_nonmono": 61,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 44,
+     "sum_neg_magnitude": 271,
+     "max_neg_step": 140,
+     "clips_with_nonmono": 192,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 18,
+     "sum_neg_magnitude": 207,
+     "max_neg_step": 151,
+     "clips_with_nonmono": 203,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 15,
+     "sum_neg_magnitude": 79,
+     "max_neg_step": 48,
+     "clips_with_nonmono": 87,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 3,
+     "sum_neg_magnitude": 35,
+     "max_neg_step": 33,
+     "clips_with_nonmono": 35,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 41,
+     "sum_neg_magnitude": 227,
+     "max_neg_step": 90,
+     "clips_with_nonmono": 165,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 18,
+     "sum_neg_magnitude": 117,
+     "max_neg_step": 67,
+     "clips_with_nonmono": 118,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 469,
+    "total_neg_magnitude": 3119,
+    "total_refs": 4919
+   }
+  }
+ },
+ "intersect70/csebb": {
+  "grid1001": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 0,
+    "total_neg_steps": 0,
+    "total_neg_magnitude": 0,
+    "total_refs": 4919
+   }
+  },
+  "grid200": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 0,
+    "total_neg_steps": 0,
+    "total_neg_magnitude": 0,
+    "total_refs": 4919
+   }
+  }
+ },
+ "intersect50/raw": {
+  "grid1001": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 15,
+     "sum_neg_magnitude": 64,
+     "max_neg_step": 31,
+     "clips_with_nonmono": 50,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 8,
+     "sum_neg_magnitude": 37,
+     "max_neg_step": 26,
+     "clips_with_nonmono": 28,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 122,
+     "sum_neg_magnitude": 539,
+     "max_neg_step": 100,
+     "clips_with_nonmono": 223,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 93,
+     "sum_neg_magnitude": 505,
+     "max_neg_step": 124,
+     "clips_with_nonmono": 290,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 109,
+     "sum_neg_magnitude": 611,
+     "max_neg_step": 92,
+     "clips_with_nonmono": 428,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 27,
+     "sum_neg_magnitude": 128,
+     "max_neg_step": 50,
+     "clips_with_nonmono": 89,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 76,
+     "sum_neg_magnitude": 284,
+     "max_neg_step": 79,
+     "clips_with_nonmono": 159,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 110,
+     "sum_neg_magnitude": 258,
+     "max_neg_step": 35,
+     "clips_with_nonmono": 215,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 24,
+     "sum_neg_magnitude": 63,
+     "max_neg_step": 28,
+     "clips_with_nonmono": 43,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 46,
+     "sum_neg_magnitude": 263,
+     "max_neg_step": 100,
+     "clips_with_nonmono": 172,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 19,
+     "sum_neg_magnitude": 175,
+     "max_neg_step": 100,
+     "clips_with_nonmono": 165,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 13,
+     "sum_neg_magnitude": 78,
+     "max_neg_step": 44,
+     "clips_with_nonmono": 78,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 1,
+     "sum_neg_magnitude": 13,
+     "max_neg_step": 13,
+     "clips_with_nonmono": 14,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 53,
+     "sum_neg_magnitude": 298,
+     "max_neg_step": 95,
+     "clips_with_nonmono": 176,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 28,
+     "sum_neg_magnitude": 163,
+     "max_neg_step": 94,
+     "clips_with_nonmono": 126,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 744,
+    "total_neg_magnitude": 3479,
+    "total_refs": 4919
+   }
+  },
+  "grid200": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 5,
+     "sum_neg_magnitude": 58,
+     "max_neg_step": 53,
+     "clips_with_nonmono": 49,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 3,
+     "sum_neg_magnitude": 24,
+     "max_neg_step": 22,
+     "clips_with_nonmono": 26,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 40,
+     "sum_neg_magnitude": 496,
+     "max_neg_step": 267,
+     "clips_with_nonmono": 219,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 32,
+     "sum_neg_magnitude": 463,
+     "max_neg_step": 300,
+     "clips_with_nonmono": 287,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 34,
+     "sum_neg_magnitude": 558,
+     "max_neg_step": 344,
+     "clips_with_nonmono": 420,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 15,
+     "sum_neg_magnitude": 123,
+     "max_neg_step": 100,
+     "clips_with_nonmono": 84,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 28,
+     "sum_neg_magnitude": 245,
+     "max_neg_step": 173,
+     "clips_with_nonmono": 156,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 44,
+     "sum_neg_magnitude": 231,
+     "max_neg_step": 81,
+     "clips_with_nonmono": 207,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 12,
+     "sum_neg_magnitude": 50,
+     "max_neg_step": 38,
+     "clips_with_nonmono": 43,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 21,
+     "sum_neg_magnitude": 250,
+     "max_neg_step": 194,
+     "clips_with_nonmono": 165,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 9,
+     "sum_neg_magnitude": 174,
+     "max_neg_step": 159,
+     "clips_with_nonmono": 165,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 4,
+     "sum_neg_magnitude": 75,
+     "max_neg_step": 68,
+     "clips_with_nonmono": 78,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 1,
+     "sum_neg_magnitude": 9,
+     "max_neg_step": 9,
+     "clips_with_nonmono": 12,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 17,
+     "sum_neg_magnitude": 271,
+     "max_neg_step": 198,
+     "clips_with_nonmono": 167,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 10,
+     "sum_neg_magnitude": 150,
+     "max_neg_step": 120,
+     "clips_with_nonmono": 119,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 275,
+    "total_neg_magnitude": 3177,
+    "total_refs": 4919
+   }
+  }
+ },
+ "intersect50/medfilt": {
+  "grid1001": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 13,
+     "sum_neg_magnitude": 62,
+     "max_neg_step": 23,
+     "clips_with_nonmono": 50,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 9,
+     "sum_neg_magnitude": 35,
+     "max_neg_step": 24,
+     "clips_with_nonmono": 28,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 129,
+     "sum_neg_magnitude": 539,
+     "max_neg_step": 93,
+     "clips_with_nonmono": 221,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 102,
+     "sum_neg_magnitude": 507,
+     "max_neg_step": 107,
+     "clips_with_nonmono": 289,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 109,
+     "sum_neg_magnitude": 608,
+     "max_neg_step": 85,
+     "clips_with_nonmono": 424,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 25,
+     "sum_neg_magnitude": 127,
+     "max_neg_step": 44,
+     "clips_with_nonmono": 88,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 67,
+     "sum_neg_magnitude": 272,
+     "max_neg_step": 71,
+     "clips_with_nonmono": 157,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 117,
+     "sum_neg_magnitude": 254,
+     "max_neg_step": 33,
+     "clips_with_nonmono": 215,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 31,
+     "sum_neg_magnitude": 70,
+     "max_neg_step": 26,
+     "clips_with_nonmono": 43,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 53,
+     "sum_neg_magnitude": 266,
+     "max_neg_step": 94,
+     "clips_with_nonmono": 171,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 17,
+     "sum_neg_magnitude": 174,
+     "max_neg_step": 89,
+     "clips_with_nonmono": 165,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 14,
+     "sum_neg_magnitude": 78,
+     "max_neg_step": 41,
+     "clips_with_nonmono": 78,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 1,
+     "sum_neg_magnitude": 12,
+     "max_neg_step": 12,
+     "clips_with_nonmono": 14,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 55,
+     "sum_neg_magnitude": 292,
+     "max_neg_step": 81,
+     "clips_with_nonmono": 175,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 31,
+     "sum_neg_magnitude": 160,
+     "max_neg_step": 90,
+     "clips_with_nonmono": 126,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 773,
+    "total_neg_magnitude": 3456,
+    "total_refs": 4919
+   }
+  },
+  "grid200": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 5,
+     "sum_neg_magnitude": 59,
+     "max_neg_step": 53,
+     "clips_with_nonmono": 49,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 2,
+     "sum_neg_magnitude": 25,
+     "max_neg_step": 24,
+     "clips_with_nonmono": 26,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 45,
+     "sum_neg_magnitude": 483,
+     "max_neg_step": 248,
+     "clips_with_nonmono": 218,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 37,
+     "sum_neg_magnitude": 464,
+     "max_neg_step": 281,
+     "clips_with_nonmono": 287,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 33,
+     "sum_neg_magnitude": 559,
+     "max_neg_step": 319,
+     "clips_with_nonmono": 419,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 12,
+     "sum_neg_magnitude": 120,
+     "max_neg_step": 95,
+     "clips_with_nonmono": 84,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 22,
+     "sum_neg_magnitude": 233,
+     "max_neg_step": 168,
+     "clips_with_nonmono": 154,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 42,
+     "sum_neg_magnitude": 231,
+     "max_neg_step": 77,
+     "clips_with_nonmono": 207,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 17,
+     "sum_neg_magnitude": 61,
+     "max_neg_step": 41,
+     "clips_with_nonmono": 43,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 23,
+     "sum_neg_magnitude": 250,
+     "max_neg_step": 189,
+     "clips_with_nonmono": 164,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 9,
+     "sum_neg_magnitude": 174,
+     "max_neg_step": 158,
+     "clips_with_nonmono": 165,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 7,
+     "sum_neg_magnitude": 76,
+     "max_neg_step": 67,
+     "clips_with_nonmono": 78,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 1,
+     "sum_neg_magnitude": 8,
+     "max_neg_step": 8,
+     "clips_with_nonmono": 12,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 20,
+     "sum_neg_magnitude": 270,
+     "max_neg_step": 189,
+     "clips_with_nonmono": 167,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 11,
+     "sum_neg_magnitude": 149,
+     "max_neg_step": 118,
+     "clips_with_nonmono": 119,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 15,
+    "total_neg_steps": 286,
+    "total_neg_magnitude": 3162,
+    "total_refs": 4919
+   }
+  }
+ },
+ "intersect50/csebb": {
+  "grid1001": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 0,
+    "total_neg_steps": 0,
+    "total_neg_magnitude": 0,
+    "total_refs": 4919
+   }
+  },
+  "grid200": {
+   "per_class": {
+    "bell_ringing": {
+     "n_ref": 90,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "coffee_machine": {
+     "n_ref": 104,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 61
+    },
+    "cutlery_dishes": {
+     "n_ref": 637,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 238
+    },
+    "door_open_close": {
+     "n_ref": 597,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 298
+    },
+    "footsteps": {
+     "n_ref": 889,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 498
+    },
+    "keyboard_typing": {
+     "n_ref": 285,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 175
+    },
+    "keychain": {
+     "n_ref": 400,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "light_switch": {
+     "n_ref": 304,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 219
+    },
+    "microwave": {
+     "n_ref": 176,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 106
+    },
+    "phone_ringing": {
+     "n_ref": 352,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 215
+    },
+    "running_water": {
+     "n_ref": 324,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 299
+    },
+    "toilet_flushing": {
+     "n_ref": 106,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 100
+    },
+    "vacuum_cleaner": {
+     "n_ref": 92,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 83
+    },
+    "wardrobe_drawer_open_close": {
+     "n_ref": 376,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 182
+    },
+    "window_open_close": {
+     "n_ref": 187,
+     "n_neg_steps": 0,
+     "sum_neg_magnitude": 0,
+     "max_neg_step": 0,
+     "clips_with_nonmono": 0,
+     "n_clips_with_refs": 130
+    }
+   },
+   "aggregate": {
+    "classes_with_violations": 0,
+    "total_neg_steps": 0,
+    "total_neg_magnitude": 0,
+    "total_refs": 4919
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "exp_id": "i45-cse-crc_naive-clas",
+ "config": {
+  "exp_id": "i45-cse-crc_naive-clas",
+  "variant": "csebb",
+  "route": "crc_naive",
+  "grouping": "classwise",
+  "matching": "intersect70",
+  "alpha": 0.45,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 70,
+  "mean_miss_share": 0.43675424313309064,
+  "q95_miss_share": 0.46510394275650563,
+  "fp_per_h_mean": 897.176694951982,
+  "fp_per_h_std": 215.6598505733609
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.762,
+  "coffee_machine": 0.726,
+  "cutlery_dishes": 0.709,
+  "door_open_close": 0.10400000000000001,
+  "footsteps": 0.51,
+  "keyboard_typing": 0.9470000000000001,
+  "keychain": 0.609,
+  "light_switch": 0.0,
+  "microwave": 0.773,
+  "phone_ringing": 0.872,
+  "running_water": 0.966,
+  "toilet_flushing": 0.926,
+  "vacuum_cleaner": 0.932,
+  "wardrobe_drawer_open_close": 0.016,
+  "window_open_close": 0.259
+ },
+ "runtime_s": 1.0
+}

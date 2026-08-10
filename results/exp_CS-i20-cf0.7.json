@@ -1,0 +1,41 @@
+{
+ "exp_id": "CS-i20-cf0.7",
+ "config": {
+  "exp_id": "CS-i20-cf0.7",
+  "variant": "csebb",
+  "route": "ltt_split_clipmean",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.7,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 96,
+  "mean_miss_share": 0.17456544366105156,
+  "q95_miss_share": 0.19751568228273506,
+  "fp_per_h_mean": 590.8453369548431,
+  "fp_per_h_std": 140.65646624866937
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.083,
+  "coffee_machine": 0.083,
+  "cutlery_dishes": 0.083,
+  "door_open_close": 0.083,
+  "footsteps": 0.083,
+  "keyboard_typing": 0.083,
+  "keychain": 0.083,
+  "light_switch": 0.083,
+  "microwave": 0.083,
+  "phone_ringing": 0.083,
+  "running_water": 0.083,
+  "toilet_flushing": 0.083,
+  "vacuum_cleaner": 0.083,
+  "wardrobe_drawer_open_close": 0.083,
+  "window_open_close": 0.083
+ },
+ "runtime_s": 1.6
+}

@@ -1,0 +1,40 @@
+{
+ "exp_id": "c60-med-oracle_cw",
+ "config": {
+  "exp_id": "c60-med-oracle_cw",
+  "variant": "medfilt",
+  "route": "oracle_cw",
+  "grouping": "marginal",
+  "matching": "collar",
+  "alpha": 0.6,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 8,
+  "mean_miss_share": 0.605850361075065,
+  "q95_miss_share": 0.6101527684626277,
+  "fp_per_h_mean": 466.2548204661052,
+  "fp_per_h_std": 16.318461692706332
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.881,
+  "coffee_machine": 0.558,
+  "cutlery_dishes": 0.8240000000000001,
+  "door_open_close": 0.725,
+  "footsteps": 0.40800000000000003,
+  "keyboard_typing": 0.935,
+  "keychain": 0.6960000000000001,
+  "light_switch": 0.735,
+  "microwave": 0.638,
+  "phone_ringing": 0.884,
+  "running_water": 0.964,
+  "toilet_flushing": 0.874,
+  "vacuum_cleaner": 0.929,
+  "wardrobe_drawer_open_close": 0.47500000000000003,
+  "window_open_close": 0.6880000000000001
+ },
+ "runtime_s": 1.0
+}

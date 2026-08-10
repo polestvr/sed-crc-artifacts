@@ -1,0 +1,39 @@
+{
+ "exp_id": "E4s",
+ "config": {
+  "exp_id": "E4s",
+  "variant": "medfilt",
+  "route": "ltt_split_clipmean",
+  "grouping": "classwise",
+  "alpha": 0.1,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 0,
+  "mean_miss_share": 0.5131432226469403,
+  "q95_miss_share": 0.5276053320783137,
+  "fp_per_h_mean": 443.2766611248655,
+  "fp_per_h_std": 21.118867867223337
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.127,
+  "coffee_machine": 0.157,
+  "cutlery_dishes": 0.47300000000000003,
+  "door_open_close": 0.32,
+  "footsteps": 0.41500000000000004,
+  "keyboard_typing": 0.599,
+  "keychain": 0.312,
+  "light_switch": 0.23600000000000002,
+  "microwave": 0.25,
+  "phone_ringing": 0.352,
+  "running_water": 0.432,
+  "toilet_flushing": 0.343,
+  "vacuum_cleaner": 0.262,
+  "wardrobe_drawer_open_close": 0.281,
+  "window_open_close": 0.167
+ },
+ "runtime_s": 1.1
+}

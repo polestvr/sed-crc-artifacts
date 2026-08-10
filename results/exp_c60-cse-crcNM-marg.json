@@ -1,0 +1,42 @@
+{
+ "exp_id": "c60-cse-crcNM-marg",
+ "config": {
+  "exp_id": "c60-cse-crcNM-marg",
+  "variant": "csebb",
+  "route": "crc_nm",
+  "margin": 0.0,
+  "grouping": "marginal",
+  "matching": "collar",
+  "alpha": 0.6,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.5443720331097945,
+  "q95_miss_share": 0.5707115631891958,
+  "fp_per_h_mean": 246.03837879789754,
+  "fp_per_h_std": 11.87958965972551
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.669,
+  "coffee_machine": 0.669,
+  "cutlery_dishes": 0.669,
+  "door_open_close": 0.669,
+  "footsteps": 0.669,
+  "keyboard_typing": 0.669,
+  "keychain": 0.669,
+  "light_switch": 0.669,
+  "microwave": 0.669,
+  "phone_ringing": 0.669,
+  "running_water": 0.669,
+  "toilet_flushing": 0.669,
+  "vacuum_cleaner": 0.669,
+  "wardrobe_drawer_open_close": 0.669,
+  "window_open_close": 0.669
+ },
+ "runtime_s": 1.3
+}

@@ -1,0 +1,332 @@
+{
+ "i20": {
+  "config": {
+   "variant": "csebbmax",
+   "matching": "intersect50",
+   "route": "ltt_split_clipmean",
+   "alpha": 0.2,
+   "repeats": 50
+  },
+  "groups": {
+   "device/ios": {
+    "n_clips_held": 473,
+    "n_events_held": 2275,
+    "n_clips_cal": 534,
+    "mean_miss": 0.1501,
+    "std_miss": 0.0098,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 839.3
+   },
+   "device/android": {
+    "n_clips_held": 432,
+    "n_events_held": 2235,
+    "n_clips_cal": 575,
+    "mean_miss": 0.1822,
+    "std_miss": 0.0076,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 434.2
+   },
+   "device/other": {
+    "n_clips_held": 102,
+    "n_events_held": 518,
+    "n_clips_cal": 905,
+    "mean_miss": 0.2169,
+    "std_miss": 0.0121,
+    "frac_repeats_ok": 0.08,
+    "fp_per_h_mean": 352.4
+   },
+   "placement/static": {
+    "n_clips_held": 546,
+    "n_events_held": 2545,
+    "n_clips_cal": 461,
+    "mean_miss": 0.1285,
+    "std_miss": 0.0092,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 1124.3
+   },
+   "placement/mobile": {
+    "n_clips_held": 461,
+    "n_events_held": 2483,
+    "n_clips_cal": 546,
+    "mean_miss": 0.2113,
+    "std_miss": 0.0097,
+    "frac_repeats_ok": 0.16,
+    "fp_per_h_mean": 359.1
+   },
+   "env/kitchen": {
+    "n_clips_held": 296,
+    "n_events_held": 1544,
+    "n_clips_cal": 711,
+    "mean_miss": 0.1563,
+    "std_miss": 0.01,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 539.3
+   },
+   "env/bedroom": {
+    "n_clips_held": 211,
+    "n_events_held": 1016,
+    "n_clips_cal": 796,
+    "mean_miss": 0.1709,
+    "std_miss": 0.0044,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 407.7
+   },
+   "env/hallway": {
+    "n_clips_held": 191,
+    "n_events_held": 1143,
+    "n_clips_cal": 816,
+    "mean_miss": 0.2501,
+    "std_miss": 0.0074,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 358.1
+   },
+   "env/living_room": {
+    "n_clips_held": 155,
+    "n_events_held": 767,
+    "n_clips_cal": 852,
+    "mean_miss": 0.2301,
+    "std_miss": 0.0085,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 355.7
+   },
+   "env/office": {
+    "n_clips_held": 120,
+    "n_events_held": 576,
+    "n_clips_cal": 887,
+    "mean_miss": 0.1238,
+    "std_miss": 0.0078,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 407.3
+   },
+   "env/bathroom": {
+    "n_clips_held": 99,
+    "n_events_held": 454,
+    "n_clips_cal": 908,
+    "mean_miss": 0.1799,
+    "std_miss": 0.0051,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 409.8
+   }
+  }
+ },
+ "i45": {
+  "config": {
+   "variant": "csebb",
+   "matching": "intersect70",
+   "route": "ltt_bonf_clipmean",
+   "alpha": 0.45,
+   "repeats": 50
+  },
+  "groups": {
+   "device/ios": {
+    "n_clips_held": 473,
+    "n_events_held": 2275,
+    "n_clips_cal": 534,
+    "mean_miss": 0.3732,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 119.1
+   },
+   "device/android": {
+    "n_clips_held": 432,
+    "n_events_held": 2235,
+    "n_clips_cal": 575,
+    "mean_miss": 0.4716,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 67.0
+   },
+   "device/other": {
+    "n_clips_held": 102,
+    "n_events_held": 518,
+    "n_clips_cal": 905,
+    "mean_miss": 0.4884,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 48.2
+   },
+   "placement/static": {
+    "n_clips_held": 546,
+    "n_events_held": 2545,
+    "n_clips_cal": 461,
+    "mean_miss": 0.3462,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 147.8
+   },
+   "placement/mobile": {
+    "n_clips_held": 461,
+    "n_events_held": 2483,
+    "n_clips_cal": 546,
+    "mean_miss": 0.5018,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 63.4
+   },
+   "env/kitchen": {
+    "n_clips_held": 296,
+    "n_events_held": 1544,
+    "n_clips_cal": 711,
+    "mean_miss": 0.4262,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 79.8
+   },
+   "env/bedroom": {
+    "n_clips_held": 211,
+    "n_events_held": 1016,
+    "n_clips_cal": 796,
+    "mean_miss": 0.4459,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 63.7
+   },
+   "env/hallway": {
+    "n_clips_held": 191,
+    "n_events_held": 1143,
+    "n_clips_cal": 816,
+    "mean_miss": 0.5144,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 72.1
+   },
+   "env/living_room": {
+    "n_clips_held": 155,
+    "n_events_held": 767,
+    "n_clips_cal": 852,
+    "mean_miss": 0.4785,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 83.8
+   },
+   "env/office": {
+    "n_clips_held": 120,
+    "n_events_held": 576,
+    "n_clips_cal": 887,
+    "mean_miss": 0.3177,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 54.8
+   },
+   "env/bathroom": {
+    "n_clips_held": 99,
+    "n_events_held": 454,
+    "n_clips_cal": 908,
+    "mean_miss": 0.4251,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 75.7
+   }
+  }
+ },
+ "c60": {
+  "config": {
+   "variant": "csebb",
+   "matching": "collar",
+   "route": "ltt_bonf_clipmean",
+   "alpha": 0.6,
+   "repeats": 50
+  },
+  "groups": {
+   "device/ios": {
+    "n_clips_held": 473,
+    "n_events_held": 2275,
+    "n_clips_cal": 534,
+    "mean_miss": 0.516,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 261.6
+   },
+   "device/android": {
+    "n_clips_held": 432,
+    "n_events_held": 2235,
+    "n_clips_cal": 575,
+    "mean_miss": 0.6031,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 200.5
+   },
+   "device/other": {
+    "n_clips_held": 102,
+    "n_events_held": 518,
+    "n_clips_cal": 905,
+    "mean_miss": 0.6236,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 162.6
+   },
+   "placement/static": {
+    "n_clips_held": 546,
+    "n_events_held": 2545,
+    "n_clips_cal": 461,
+    "mean_miss": 0.512,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 258.8
+   },
+   "placement/mobile": {
+    "n_clips_held": 461,
+    "n_events_held": 2483,
+    "n_clips_cal": 546,
+    "mean_miss": 0.6238,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 193.2
+   },
+   "env/kitchen": {
+    "n_clips_held": 296,
+    "n_events_held": 1544,
+    "n_clips_cal": 711,
+    "mean_miss": 0.5751,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 246.2
+   },
+   "env/bedroom": {
+    "n_clips_held": 211,
+    "n_events_held": 1016,
+    "n_clips_cal": 796,
+    "mean_miss": 0.5817,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 193.3
+   },
+   "env/hallway": {
+    "n_clips_held": 191,
+    "n_events_held": 1143,
+    "n_clips_cal": 816,
+    "mean_miss": 0.6317,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 208.0
+   },
+   "env/living_room": {
+    "n_clips_held": 155,
+    "n_events_held": 767,
+    "n_clips_cal": 852,
+    "mean_miss": 0.6506,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 0.0,
+    "fp_per_h_mean": 203.0
+   },
+   "env/office": {
+    "n_clips_held": 120,
+    "n_events_held": 576,
+    "n_clips_cal": 887,
+    "mean_miss": 0.4792,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 173.0
+   },
+   "env/bathroom": {
+    "n_clips_held": 99,
+    "n_events_held": 454,
+    "n_clips_cal": 908,
+    "mean_miss": 0.5022,
+    "std_miss": 0.0,
+    "frac_repeats_ok": 1.0,
+    "fp_per_h_mean": 157.3
+   }
+  }
+ }
+}

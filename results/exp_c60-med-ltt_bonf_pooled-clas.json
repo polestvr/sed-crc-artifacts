@@ -1,0 +1,40 @@
+{
+ "exp_id": "c60-med-ltt_bonf_pooled-clas",
+ "config": {
+  "exp_id": "c60-med-ltt_bonf_pooled-clas",
+  "variant": "medfilt",
+  "route": "ltt_bonf_pooled",
+  "grouping": "classwise",
+  "matching": "collar",
+  "alpha": 0.6,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.5186236380280499,
+  "q95_miss_share": 0.5342270570262737,
+  "fp_per_h_mean": 432.7025351152304,
+  "fp_per_h_std": 18.380846358612672
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.28200000000000003,
+  "coffee_machine": 0.198,
+  "cutlery_dishes": 0.405,
+  "door_open_close": 0.367,
+  "footsteps": 0.417,
+  "keyboard_typing": 0.644,
+  "keychain": 0.28500000000000003,
+  "light_switch": 0.31,
+  "microwave": 0.23500000000000001,
+  "phone_ringing": 0.45,
+  "running_water": 0.899,
+  "toilet_flushing": 0.425,
+  "vacuum_cleaner": 0.461,
+  "wardrobe_drawer_open_close": 0.28600000000000003,
+  "window_open_close": 0.156
+ },
+ "runtime_s": 1.3
+}

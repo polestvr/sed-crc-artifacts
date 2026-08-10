@@ -1,0 +1,22 @@
+{
+ "exp_id": "XD-i20-seb2med",
+ "config": {
+  "exp_id": "XD-i20-seb2med",
+  "cal_variant": "csebb",
+  "deploy_variant": "medfilt",
+  "route": "ltt_split_clipmean",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 0,
+  "mean_miss_share": 0.22520066669326766,
+  "q95_miss_share": 0.25153316124040315,
+  "fp_per_h_mean": 392.97295179622034,
+  "fp_per_h_std": 88.96015475879761
+ }
+}

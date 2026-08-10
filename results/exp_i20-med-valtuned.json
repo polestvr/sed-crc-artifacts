@@ -1,0 +1,40 @@
+{
+ "exp_id": "i20-med-valtuned",
+ "config": {
+  "exp_id": "i20-med-valtuned",
+  "variant": "medfilt",
+  "route": "valtuned",
+  "grouping": "classwise",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 0,
+  "mean_miss_share": 0.5709591470529621,
+  "q95_miss_share": 0.582296117636257,
+  "fp_per_h_mean": 1027.1148713798714,
+  "fp_per_h_std": 8.169789118582305
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.10300000000000001,
+  "coffee_machine": 0.1,
+  "cutlery_dishes": 0.0,
+  "door_open_close": 0.0,
+  "footsteps": 0.073,
+  "keyboard_typing": 0.9520000000000001,
+  "keychain": 0.0,
+  "light_switch": 0.0,
+  "microwave": 0.133,
+  "phone_ringing": 0.673,
+  "running_water": 0.965,
+  "toilet_flushing": 0.715,
+  "vacuum_cleaner": 0.912,
+  "wardrobe_drawer_open_close": 0.0,
+  "window_open_close": 0.0
+ },
+ "runtime_s": 0.8
+}

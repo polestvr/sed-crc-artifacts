@@ -1,0 +1,39 @@
+{
+ "exp_id": "ORm-med",
+ "config": {
+  "exp_id": "ORm-med",
+  "variant": "medfilt",
+  "route": "oracle_marg",
+  "grouping": "marginal",
+  "alpha": 0.1,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 0,
+  "mean_miss_share": 0.4988163731278267,
+  "q95_miss_share": 0.5108667796772961,
+  "fp_per_h_mean": 411.2147990369574,
+  "fp_per_h_std": 13.408007030203779
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.356,
+  "coffee_machine": 0.356,
+  "cutlery_dishes": 0.356,
+  "door_open_close": 0.356,
+  "footsteps": 0.356,
+  "keyboard_typing": 0.356,
+  "keychain": 0.356,
+  "light_switch": 0.356,
+  "microwave": 0.356,
+  "phone_ringing": 0.356,
+  "running_water": 0.356,
+  "toilet_flushing": 0.356,
+  "vacuum_cleaner": 0.356,
+  "wardrobe_drawer_open_close": 0.356,
+  "window_open_close": 0.356
+ },
+ "runtime_s": 1.0
+}

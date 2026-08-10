@@ -1,0 +1,41 @@
+{
+ "exp_id": "i20-cse-bonf200-marg",
+ "config": {
+  "exp_id": "i20-cse-bonf200-marg",
+  "variant": "csebb",
+  "route": "ltt_bonf_cm200",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.15500552911502793,
+  "q95_miss_share": 0.17463741851979042,
+  "fp_per_h_mean": 946.3035858878475,
+  "fp_per_h_std": 142.0951616451872
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.037,
+  "coffee_machine": 0.037,
+  "cutlery_dishes": 0.037,
+  "door_open_close": 0.037,
+  "footsteps": 0.037,
+  "keyboard_typing": 0.037,
+  "keychain": 0.037,
+  "light_switch": 0.037,
+  "microwave": 0.037,
+  "phone_ringing": 0.037,
+  "running_water": 0.037,
+  "toilet_flushing": 0.037,
+  "vacuum_cleaner": 0.037,
+  "wardrobe_drawer_open_close": 0.037,
+  "window_open_close": 0.037
+ },
+ "runtime_s": 1.6
+}

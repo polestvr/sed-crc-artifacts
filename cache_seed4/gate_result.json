@@ -1,0 +1,73 @@
+{
+ "raw": {
+  "psds1": 0.49336811226561217,
+  "psds1_macro": 0.6668194838799685,
+  "per_class": {
+   "bell_ringing": 0.7728893972927695,
+   "coffee_machine": 0.790611129013689,
+   "cutlery_dishes": 0.5764224934257127,
+   "door_open_close": 0.41962858384911583,
+   "footsteps": 0.45450434504350234,
+   "keyboard_typing": 0.8689867538134923,
+   "keychain": 0.5924126000349899,
+   "light_switch": 0.4032618939453463,
+   "microwave": 0.7275393333305531,
+   "phone_ringing": 0.7119328851312652,
+   "running_water": 0.8812870485581229,
+   "toilet_flushing": 0.7907003347417885,
+   "vacuum_cleaner": 0.9099541876605389,
+   "wardrobe_drawer_open_close": 0.4780524772051939,
+   "window_open_close": 0.6241087951534445
+  }
+ },
+ "medfilt": {
+  "psds1": 0.5346988304442462,
+  "psds1_macro": 0.6977014026413288,
+  "per_class": {
+   "bell_ringing": 0.7646216480818433,
+   "coffee_machine": 0.8175475610845077,
+   "cutlery_dishes": 0.6166741910229858,
+   "door_open_close": 0.4798702156435513,
+   "footsteps": 0.5608268960608532,
+   "keyboard_typing": 0.8748654175966076,
+   "keychain": 0.6312982419091594,
+   "light_switch": 0.4095123812062022,
+   "microwave": 0.7806527104242572,
+   "phone_ringing": 0.7525181214751284,
+   "running_water": 0.9021564685487771,
+   "toilet_flushing": 0.7899403060428523,
+   "vacuum_cleaner": 0.9595346124805022,
+   "wardrobe_drawer_open_close": 0.49154868382192357,
+   "window_open_close": 0.6339535842207831
+  }
+ },
+ "csebb": {
+  "psds1": 0.5658505303929009,
+  "psds1_macro": 0.7220700074049985,
+  "per_class": {
+   "bell_ringing": 0.8049924695533065,
+   "coffee_machine": 0.8060286069865793,
+   "cutlery_dishes": 0.6350615489952562,
+   "door_open_close": 0.4866184124595344,
+   "footsteps": 0.5903402164264461,
+   "keyboard_typing": 0.8978496836457299,
+   "keychain": 0.6698151188318363,
+   "light_switch": 0.46450573691102887,
+   "microwave": 0.7334932817330007,
+   "phone_ringing": 0.7610945758026062,
+   "running_water": 0.9193512598906816,
+   "toilet_flushing": 0.8680520695204763,
+   "vacuum_cleaner": 0.9848074335140836,
+   "wardrobe_drawer_open_close": 0.5373765089953894,
+   "window_open_close": 0.6716631878090218
+  }
+ },
+ "gate": {
+  "target": 0.731,
+  "tolerance": 0.01,
+  "achieved": 0.7220700074049985,
+  "pass": true,
+  "secondary_medfilt_expected": 0.693,
+  "secondary_raw_expected": 0.662
+ }
+}

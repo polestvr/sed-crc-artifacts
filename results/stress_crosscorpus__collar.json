@@ -1,0 +1,40 @@
+{
+ "config": {
+  "route": "ltt_bonf_clipmean",
+  "matching": "collar",
+  "alpha": 0.6,
+  "delta": 0.05
+ },
+ "mapping": {
+  "Running_water": "running_water",
+  "Vacuum_cleaner": "vacuum_cleaner",
+  "Dishes": "cutlery_dishes"
+ },
+ "realdesed_to_desed": {
+  "lams": {
+   "running_water": 0.9380000000000001,
+   "vacuum_cleaner": 0.795,
+   "cutlery_dishes": 0.40800000000000003
+  },
+  "desed_miss_share": 0.7532467532467533,
+  "desed_fp_per_h": 197.39480707723675,
+  "desed_n_events": 693,
+  "indomain_resub_miss": 0.5115810674723061,
+  "indomain_n_events": 993
+ },
+ "desed_to_realdesed": {
+  "lams": {
+   "running_water": 0.428,
+   "vacuum_cleaner": 0.9590000000000001,
+   "cutlery_dishes": 0.836
+  },
+  "realdesed_miss_share": 0.48539778449144005,
+  "realdesed_fp_per_h": 94.20636513602983,
+  "realdesed_n_events": 993,
+  "desed_cal_events": {
+   "running_water": 109,
+   "vacuum_cleaner": 96,
+   "cutlery_dishes": 488
+  }
+ }
+}

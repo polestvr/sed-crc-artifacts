@@ -1,0 +1,87 @@
+{
+ "crcC-i20": {
+  "config": {
+   "variant": "csebb",
+   "matching": "intersect50",
+   "route": "crc_c_nonmono",
+   "alpha": 0.2,
+   "n_draws": 500
+  },
+  "mean_pop_clipbalanced_risk": 0.1992,
+  "std_pop_clipbalanced_risk": 0.0073,
+  "mean_pop_pooled_risk": 0.2307,
+  "std_pop_pooled_risk": 0.0084,
+  "viol_frac_clipbalanced": 0.436,
+  "viol_frac_pooled": 1.0,
+  "in_expectation_holds_clipbalanced": true,
+  "seconds": 118.6
+ },
+ "crcC-i45": {
+  "config": {
+   "variant": "csebb",
+   "matching": "intersect70",
+   "route": "crc_c_nonmono",
+   "alpha": 0.45,
+   "n_draws": 500
+  },
+  "mean_pop_clipbalanced_risk": 0.4492,
+  "std_pop_clipbalanced_risk": 0.0096,
+  "mean_pop_pooled_risk": 0.5043,
+  "std_pop_pooled_risk": 0.0107,
+  "viol_frac_clipbalanced": 0.47,
+  "viol_frac_pooled": 1.0,
+  "in_expectation_holds_clipbalanced": true,
+  "seconds": 115.2
+ },
+ "crcC-c60": {
+  "config": {
+   "variant": "csebb",
+   "matching": "collar",
+   "route": "crc_c_nonmono",
+   "alpha": 0.6,
+   "n_draws": 500
+  },
+  "mean_pop_clipbalanced_risk": 0.5987,
+  "std_pop_clipbalanced_risk": 0.0092,
+  "mean_pop_pooled_risk": 0.6432,
+  "std_pop_pooled_risk": 0.0095,
+  "viol_frac_clipbalanced": 0.452,
+  "viol_frac_pooled": 1.0,
+  "in_expectation_holds_clipbalanced": true,
+  "seconds": 113.4
+ },
+ "crc-i20": {
+  "config": {
+   "variant": "csebb",
+   "matching": "intersect50",
+   "route": "crc_naive",
+   "alpha": 0.2,
+   "n_draws": 500
+  },
+  "mean_pop_clipbalanced_risk": 0.1659,
+  "std_pop_clipbalanced_risk": 0.0066,
+  "mean_pop_pooled_risk": 0.1924,
+  "std_pop_pooled_risk": 0.0076,
+  "viol_frac_clipbalanced": 0.0,
+  "viol_frac_pooled": 0.17,
+  "in_expectation_holds_clipbalanced": true,
+  "seconds": 0.1
+ },
+ "crc-c60m": {
+  "config": {
+   "variant": "medfilt",
+   "matching": "collar",
+   "route": "crc_naive",
+   "alpha": 0.6,
+   "n_draws": 500
+  },
+  "mean_pop_clipbalanced_risk": 0.5715,
+  "std_pop_clipbalanced_risk": 0.0104,
+  "mean_pop_pooled_risk": 0.5954,
+  "std_pop_pooled_risk": 0.009,
+  "viol_frac_clipbalanced": 0.004,
+  "viol_frac_pooled": 0.29,
+  "in_expectation_holds_clipbalanced": true,
+  "seconds": 0.1
+ }
+}

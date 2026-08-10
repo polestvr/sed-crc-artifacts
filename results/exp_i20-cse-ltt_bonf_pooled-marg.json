@@ -1,0 +1,40 @@
+{
+ "exp_id": "i20-cse-ltt_bonf_pooled-marg",
+ "config": {
+  "exp_id": "i20-cse-ltt_bonf_pooled-marg",
+  "variant": "csebb",
+  "route": "ltt_bonf_pooled",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.11426421807760244,
+  "q95_miss_share": 0.12275587225007503,
+  "fp_per_h_mean": 6434.596495025323,
+  "fp_per_h_std": 68.30721377044289
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.0,
+  "coffee_machine": 0.0,
+  "cutlery_dishes": 0.0,
+  "door_open_close": 0.0,
+  "footsteps": 0.0,
+  "keyboard_typing": 0.0,
+  "keychain": 0.0,
+  "light_switch": 0.0,
+  "microwave": 0.0,
+  "phone_ringing": 0.0,
+  "running_water": 0.0,
+  "toilet_flushing": 0.0,
+  "vacuum_cleaner": 0.0,
+  "wardrobe_drawer_open_close": 0.0,
+  "window_open_close": 0.0
+ },
+ "runtime_s": 1.3
+}

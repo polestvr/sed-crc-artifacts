@@ -1,0 +1,121 @@
+{
+ "config": {
+  "exp_id": "SG-c60",
+  "variant": "csebb",
+  "route": "ltt_bonf_clipmean",
+  "grouping": "marginal",
+  "alpha": 0.6,
+  "delta": 0.05,
+  "n_splits": 100,
+  "top_envs": 6,
+  "matching": "collar"
+ },
+ "overall": {
+  "n_splits": 100,
+  "n_ok": 99,
+  "mean_miss": 0.5576263269745373,
+  "q95_miss": 0.5851427933958054,
+  "fp_per_h_mean": 228.28925228452655
+ },
+ "groups": {
+  "device/ios": {
+   "n_splits": 100,
+   "n_ok": 100,
+   "mean_miss": 0.5311884923169893,
+   "q95_miss": 0.5651692691093438,
+   "fp_per_h_mean": 232.56555301188942,
+   "mean_events_per_split": 1141.45,
+   "n_clips_total": 473
+  },
+  "device/android": {
+   "n_splits": 100,
+   "n_ok": 90,
+   "mean_miss": 0.5754744870830487,
+   "q95_miss": 0.6065424549886441,
+   "fp_per_h_mean": 234.52381369098345,
+   "mean_events_per_split": 1115.08,
+   "n_clips_total": 432
+  },
+  "device/other": {
+   "n_splits": 100,
+   "n_ok": 57,
+   "mean_miss": 0.5963409805130864,
+   "q95_miss": 0.6384826311899482,
+   "fp_per_h_mean": 185.33993533651065,
+   "mean_events_per_split": 258.58,
+   "n_clips_total": 102
+  },
+  "placement/static": {
+   "n_splits": 100,
+   "n_ok": 100,
+   "mean_miss": 0.5381117413251757,
+   "q95_miss": 0.5675929450577337,
+   "fp_per_h_mean": 216.62907692231224,
+   "mean_events_per_split": 1263.28,
+   "n_clips_total": 546
+  },
+  "placement/mobile": {
+   "n_splits": 100,
+   "n_ok": 84,
+   "mean_miss": 0.5773027667581065,
+   "q95_miss": 0.6121281484047383,
+   "fp_per_h_mean": 242.34804923854904,
+   "mean_events_per_split": 1251.83,
+   "n_clips_total": 461
+  },
+  "env/kitchen": {
+   "n_splits": 100,
+   "n_ok": 97,
+   "mean_miss": 0.5630365326198684,
+   "q95_miss": 0.5959604722762617,
+   "fp_per_h_mean": 265.32197198257103,
+   "mean_events_per_split": 778.59,
+   "n_clips_total": 296
+  },
+  "env/bedroom": {
+   "n_splits": 100,
+   "n_ok": 96,
+   "mean_miss": 0.5521129966012883,
+   "q95_miss": 0.59579615648593,
+   "fp_per_h_mean": 212.82006068033806,
+   "mean_events_per_split": 507.52,
+   "n_clips_total": 211
+  },
+  "env/hallway": {
+   "n_splits": 100,
+   "n_ok": 51,
+   "mean_miss": 0.5994272823587966,
+   "q95_miss": 0.6517416464764428,
+   "fp_per_h_mean": 253.58036578239197,
+   "mean_events_per_split": 575.29,
+   "n_clips_total": 191
+  },
+  "env/living_room": {
+   "n_splits": 100,
+   "n_ok": 26,
+   "mean_miss": 0.6139562882327076,
+   "q95_miss": 0.6725588326882869,
+   "fp_per_h_mean": 243.0168487644904,
+   "mean_events_per_split": 378.94,
+   "n_clips_total": 155
+  },
+  "env/office": {
+   "n_splits": 100,
+   "n_ok": 100,
+   "mean_miss": 0.47479050598720135,
+   "q95_miss": 0.523881673881674,
+   "fp_per_h_mean": 175.99288825734982,
+   "mean_events_per_split": 289.05,
+   "n_clips_total": 120
+  },
+  "env/bathroom": {
+   "n_splits": 100,
+   "n_ok": 100,
+   "mean_miss": 0.4832870319682305,
+   "q95_miss": 0.5353621192628966,
+   "fp_per_h_mean": 177.27957881849485,
+   "mean_events_per_split": 224.89,
+   "n_clips_total": 99
+  }
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "validation": {
+  "collar/csebb": {
+   "common_floor": 0.4237,
+   "classwise_floor": 0.4237
+  },
+  "intersect50/csebb": {
+   "common_floor": 0.1161,
+   "classwise_floor": 0.1161
+  },
+  "intersect70/csebb": {
+   "common_floor": 0.2612,
+   "classwise_floor": 0.2612
+  },
+  "intersect50/csebbmax": {
+   "common_floor": 0.1161,
+   "classwise_floor": 0.1161
+  },
+  "collar/medfilt": {
+   "common_floor": 0.5115,
+   "classwise_floor": 0.4875
+  },
+  "intersect50/medfilt": {
+   "common_floor": 0.2078,
+   "classwise_floor": 0.1852
+  },
+  "intersect70/medfilt": {
+   "common_floor": 0.3629,
+   "classwise_floor": 0.3381
+  },
+  "collar/raw": {
+   "common_floor": 0.5103,
+   "classwise_floor": 0.4863
+  },
+  "intersect50/raw": {
+   "common_floor": 0.2029,
+   "classwise_floor": 0.1793
+  },
+  "intersect70/raw": {
+   "common_floor": 0.3562,
+   "classwise_floor": 0.3326
+  }
+ },
+ "selection_pool": {
+  "collar/csebb": {
+   "common_floor": 0.416,
+   "classwise_floor": 0.416
+  },
+  "intersect50/csebb": {
+   "common_floor": 0.107,
+   "classwise_floor": 0.107
+  },
+  "intersect70/csebb": {
+   "common_floor": 0.2835,
+   "classwise_floor": 0.2835
+  },
+  "intersect50/csebbmax": {
+   "common_floor": 0.107,
+   "classwise_floor": 0.107
+  },
+  "intersect50/csebbtopk3": {
+   "common_floor": 0.107,
+   "classwise_floor": 0.107
+  },
+  "collar/medfilt": {
+   "common_floor": 0.4902,
+   "classwise_floor": 0.469
+  },
+  "collar/medfiltW13": {
+   "common_floor": 0.4952,
+   "classwise_floor": 0.4763
+  },
+  "collar/medfiltW21": {
+   "common_floor": 0.5306,
+   "classwise_floor": 0.4988
+  },
+  "collar/medfiltW5": {
+   "common_floor": 0.4866,
+   "classwise_floor": 0.467
+  },
+  "intersect50/medfilt": {
+   "common_floor": 0.1977,
+   "classwise_floor": 0.1802
+  },
+  "intersect70/medfilt": {
+   "common_floor": 0.3495,
+   "classwise_floor": 0.3342
+  },
+  "collar/raw": {
+   "common_floor": 0.4876,
+   "classwise_floor": 0.467
+  },
+  "intersect50/raw": {
+   "common_floor": 0.1915,
+   "classwise_floor": 0.1742
+  },
+  "intersect70/raw": {
+   "common_floor": 0.3408,
+   "classwise_floor": 0.3259
+  }
+ },
+ "level_check": {
+  "validation": {
+   "per_config": {
+    "collar/csebb": {
+     "level": 0.6,
+     "feasible": true
+    },
+    "intersect50/csebb": {
+     "level": 0.2,
+     "feasible": true
+    },
+    "intersect70/csebb": {
+     "level": 0.45,
+     "feasible": true
+    },
+    "intersect50/csebbmax": {
+     "level": 0.2,
+     "feasible": true
+    },
+    "collar/medfilt": {
+     "level": 0.6,
+     "feasible": true
+    },
+    "intersect50/medfilt": {
+     "level": 0.2,
+     "feasible": false
+    },
+    "intersect70/medfilt": {
+     "level": 0.45,
+     "feasible": true
+    },
+    "collar/raw": {
+     "level": 0.6,
+     "feasible": true
+    },
+    "intersect50/raw": {
+     "level": 0.2,
+     "feasible": false
+    },
+    "intersect70/raw": {
+     "level": 0.45,
+     "feasible": true
+    }
+   },
+   "min_common_floor": 0.1161,
+   "alpha01_infeasible": true
+  },
+  "selection_pool": {
+   "per_config": {
+    "collar/csebb": {
+     "level": 0.6,
+     "feasible": true
+    },
+    "intersect50/csebb": {
+     "level": 0.2,
+     "feasible": true
+    },
+    "intersect70/csebb": {
+     "level": 0.45,
+     "feasible": true
+    },
+    "intersect50/csebbmax": {
+     "level": 0.2,
+     "feasible": true
+    },
+    "intersect50/csebbtopk3": {
+     "level": 0.2,
+     "feasible": true
+    },
+    "collar/medfilt": {
+     "level": 0.6,
+     "feasible": true
+    },
+    "collar/medfiltW13": {
+     "level": 0.6,
+     "feasible": true
+    },
+    "collar/medfiltW21": {
+     "level": 0.6,
+     "feasible": true
+    },
+    "collar/medfiltW5": {
+     "level": 0.6,
+     "feasible": true
+    },
+    "intersect50/medfilt": {
+     "level": 0.2,
+     "feasible": true
+    },
+    "intersect70/medfilt": {
+     "level": 0.45,
+     "feasible": true
+    },
+    "collar/raw": {
+     "level": 0.6,
+     "feasible": true
+    },
+    "intersect50/raw": {
+     "level": 0.2,
+     "feasible": true
+    },
+    "intersect70/raw": {
+     "level": 0.45,
+     "feasible": true
+    }
+   },
+   "min_common_floor": 0.107,
+   "alpha01_infeasible": true
+  }
+ }
+}

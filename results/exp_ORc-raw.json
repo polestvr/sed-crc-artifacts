@@ -1,0 +1,39 @@
+{
+ "exp_id": "ORc-raw",
+ "config": {
+  "exp_id": "ORc-raw",
+  "variant": "raw",
+  "route": "oracle_cw",
+  "grouping": "marginal",
+  "alpha": 0.1,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 0,
+  "mean_miss_share": 0.46908785291052885,
+  "q95_miss_share": 0.482280615240108,
+  "fp_per_h_mean": 944.1348512108489,
+  "fp_per_h_std": 37.85115182077961
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.14,
+  "coffee_machine": 0.134,
+  "cutlery_dishes": 0.41500000000000004,
+  "door_open_close": 0.298,
+  "footsteps": 0.417,
+  "keyboard_typing": 0.583,
+  "keychain": 0.265,
+  "light_switch": 0.242,
+  "microwave": 0.213,
+  "phone_ringing": 0.373,
+  "running_water": 0.419,
+  "toilet_flushing": 0.362,
+  "vacuum_cleaner": 0.217,
+  "wardrobe_drawer_open_close": 0.31,
+  "window_open_close": 0.158
+ },
+ "runtime_s": 1.0
+}

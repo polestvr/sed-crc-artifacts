@@ -1,0 +1,40 @@
+{
+ "exp_id": "c60-cse-oracle_marg",
+ "config": {
+  "exp_id": "c60-cse-oracle_marg",
+  "variant": "csebb",
+  "route": "oracle_marg",
+  "grouping": "marginal",
+  "matching": "collar",
+  "alpha": 0.6,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.599471599665226,
+  "q95_miss_share": 0.6,
+  "fp_per_h_mean": 184.12472378821033,
+  "fp_per_h_std": 10.600863155753064
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.776,
+  "coffee_machine": 0.776,
+  "cutlery_dishes": 0.776,
+  "door_open_close": 0.776,
+  "footsteps": 0.776,
+  "keyboard_typing": 0.776,
+  "keychain": 0.776,
+  "light_switch": 0.776,
+  "microwave": 0.776,
+  "phone_ringing": 0.776,
+  "running_water": 0.776,
+  "toilet_flushing": 0.776,
+  "vacuum_cleaner": 0.776,
+  "wardrobe_drawer_open_close": 0.776,
+  "window_open_close": 0.776
+ },
+ "runtime_s": 1.0
+}

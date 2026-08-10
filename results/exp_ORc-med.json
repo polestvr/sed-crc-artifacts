@@ -1,0 +1,39 @@
+{
+ "exp_id": "ORc-med",
+ "config": {
+  "exp_id": "ORc-med",
+  "variant": "medfilt",
+  "route": "oracle_cw",
+  "grouping": "marginal",
+  "alpha": 0.1,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 0,
+  "mean_miss_share": 0.4744678774630212,
+  "q95_miss_share": 0.4870648946010418,
+  "fp_per_h_mean": 410.92205936276446,
+  "fp_per_h_std": 17.82889897360932
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.147,
+  "coffee_machine": 0.182,
+  "cutlery_dishes": 0.436,
+  "door_open_close": 0.353,
+  "footsteps": 0.40800000000000003,
+  "keyboard_typing": 0.608,
+  "keychain": 0.299,
+  "light_switch": 0.223,
+  "microwave": 0.234,
+  "phone_ringing": 0.364,
+  "running_water": 0.443,
+  "toilet_flushing": 0.379,
+  "vacuum_cleaner": 0.262,
+  "wardrobe_drawer_open_close": 0.3,
+  "window_open_close": 0.148
+ },
+ "runtime_s": 1.0
+}

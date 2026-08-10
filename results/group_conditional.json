@@ -1,0 +1,176 @@
+{
+ "i20": {
+  "placement": {
+   "scheme": "placement",
+   "route": "ltt_bonf_clipmean",
+   "overall_n_ok": 100,
+   "overall_mean_miss": 0.1332,
+   "fp_per_h_mean": 3513.2,
+   "fallback_events": 0,
+   "groups": {
+    "mobile": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.1277
+    },
+    "static": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.1385
+    }
+   }
+  },
+  "device": {
+   "scheme": "device",
+   "route": "ltt_bonf_clipmean",
+   "overall_n_ok": 100,
+   "overall_mean_miss": 0.1261,
+   "fp_per_h_mean": 4112.3,
+   "fallback_events": 0,
+   "groups": {
+    "android": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.12
+    },
+    "ios": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.1332
+    },
+    "other": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.1206
+    }
+   }
+  },
+  "environment": {
+   "scheme": "environment",
+   "route": "ltt_bonf_clipmean",
+   "overall_n_ok": 100,
+   "overall_mean_miss": 0.1151,
+   "fp_per_h_mean": 6295.4,
+   "fallback_events": 0,
+   "groups": {
+    "bedroom": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.1135
+    },
+    "hallway": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.1502
+    },
+    "kitchen": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.1029
+    },
+    "living_room": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.1453
+    },
+    "office": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.0626
+    },
+    "other_env": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.1095
+    }
+   }
+  }
+ },
+ "c60": {
+  "placement": {
+   "scheme": "placement",
+   "route": "ltt_bonf_clipmean",
+   "overall_n_ok": 100,
+   "overall_mean_miss": 0.5211,
+   "fp_per_h_mean": 318.9,
+   "fallback_events": 0,
+   "groups": {
+    "mobile": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.5031
+    },
+    "static": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.5391
+    }
+   }
+  },
+  "device": {
+   "scheme": "device",
+   "route": "ltt_bonf_clipmean",
+   "overall_n_ok": 100,
+   "overall_mean_miss": 0.5049,
+   "fp_per_h_mean": 1014.2,
+   "fallback_events": 0,
+   "groups": {
+    "android": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.5124
+    },
+    "ios": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.5221
+    },
+    "other": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.3977
+    }
+   }
+  },
+  "environment": {
+   "scheme": "environment",
+   "route": "ltt_bonf_clipmean",
+   "overall_n_ok": 100,
+   "overall_mean_miss": 0.4496,
+   "fp_per_h_mean": 3388.7,
+   "fallback_events": 0,
+   "groups": {
+    "bedroom": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.4264
+    },
+    "hallway": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.4629
+    },
+    "kitchen": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.4794
+    },
+    "living_room": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.4858
+    },
+    "office": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.3979
+    },
+    "other_env": {
+     "n_ok": 100,
+     "n_splits_scored": 100,
+     "mean_miss": 0.4103
+    }
+   }
+  }
+ }
+}

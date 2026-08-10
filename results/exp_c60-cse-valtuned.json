@@ -1,0 +1,40 @@
+{
+ "exp_id": "c60-cse-valtuned",
+ "config": {
+  "exp_id": "c60-cse-valtuned",
+  "variant": "csebb",
+  "route": "valtuned",
+  "grouping": "classwise",
+  "matching": "collar",
+  "alpha": 0.6,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 46,
+  "mean_miss_share": 0.6011324399911898,
+  "q95_miss_share": 0.6149040931699362,
+  "fp_per_h_mean": 270.7154815702584,
+  "fp_per_h_std": 7.042137421167225
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.8160000000000001,
+  "coffee_machine": 0.88,
+  "cutlery_dishes": 0.81,
+  "door_open_close": 0.7030000000000001,
+  "footsteps": 0.397,
+  "keyboard_typing": 0.9470000000000001,
+  "keychain": 0.34400000000000003,
+  "light_switch": 0.6930000000000001,
+  "microwave": 0.733,
+  "phone_ringing": 0.891,
+  "running_water": 0.976,
+  "toilet_flushing": 0.9480000000000001,
+  "vacuum_cleaner": 0.964,
+  "wardrobe_drawer_open_close": 0.186,
+  "window_open_close": 0.453
+ },
+ "runtime_s": 0.8
+}

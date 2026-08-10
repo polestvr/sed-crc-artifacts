@@ -1,0 +1,40 @@
+{
+ "exp_id": "sw-i50-a0.15-oracle",
+ "config": {
+  "exp_id": "sw-i50-a0.15-oracle",
+  "variant": "csebb",
+  "route": "oracle_cw",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.15,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 7,
+  "mean_miss_share": 0.15512401144181107,
+  "q95_miss_share": 0.16047404935012524,
+  "fp_per_h_mean": 2202.7860059557365,
+  "fp_per_h_std": 358.05581132622774
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.183,
+  "coffee_machine": 0.111,
+  "cutlery_dishes": 0.14100000000000001,
+  "door_open_close": 0.002,
+  "footsteps": 0.019,
+  "keyboard_typing": 0.848,
+  "keychain": 0.023,
+  "light_switch": 0.002,
+  "microwave": 0.1,
+  "phone_ringing": 0.17200000000000001,
+  "running_water": 0.848,
+  "toilet_flushing": 0.4,
+  "vacuum_cleaner": 0.8200000000000001,
+  "wardrobe_drawer_open_close": 0.0,
+  "window_open_close": 0.046
+ },
+ "runtime_s": 1.0
+}

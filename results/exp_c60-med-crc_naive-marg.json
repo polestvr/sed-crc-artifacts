@@ -1,0 +1,40 @@
+{
+ "exp_id": "c60-med-crc_naive-marg",
+ "config": {
+  "exp_id": "c60-med-crc_naive-marg",
+  "variant": "medfilt",
+  "route": "crc_naive",
+  "grouping": "marginal",
+  "matching": "collar",
+  "alpha": 0.6,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 65,
+  "mean_miss_share": 0.5946511217858613,
+  "q95_miss_share": 0.6206167916831162,
+  "fp_per_h_mean": 390.8133801755105,
+  "fp_per_h_std": 12.09623404488774
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.78,
+  "coffee_machine": 0.78,
+  "cutlery_dishes": 0.78,
+  "door_open_close": 0.78,
+  "footsteps": 0.78,
+  "keyboard_typing": 0.78,
+  "keychain": 0.78,
+  "light_switch": 0.78,
+  "microwave": 0.78,
+  "phone_ringing": 0.78,
+  "running_water": 0.78,
+  "toilet_flushing": 0.78,
+  "vacuum_cleaner": 0.78,
+  "wardrobe_drawer_open_close": 0.78,
+  "window_open_close": 0.78
+ },
+ "runtime_s": 1.3
+}

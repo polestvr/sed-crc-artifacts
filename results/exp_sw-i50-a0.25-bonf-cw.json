@@ -1,0 +1,40 @@
+{
+ "exp_id": "sw-i50-a0.25-bonf-cw",
+ "config": {
+  "exp_id": "sw-i50-a0.25-bonf-cw",
+  "variant": "csebb",
+  "route": "ltt_bonf_clipmean",
+  "grouping": "classwise",
+  "matching": "intersect50",
+  "alpha": 0.25,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.14438901667238027,
+  "q95_miss_share": 0.16093252462830457,
+  "fp_per_h_mean": 3940.58047596334,
+  "fp_per_h_std": 414.2338947743172
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.0,
+  "coffee_machine": 0.0,
+  "cutlery_dishes": 0.019,
+  "door_open_close": 0.0,
+  "footsteps": 0.085,
+  "keyboard_typing": 0.788,
+  "keychain": 0.005,
+  "light_switch": 0.0,
+  "microwave": 0.006,
+  "phone_ringing": 0.082,
+  "running_water": 0.836,
+  "toilet_flushing": 0.028,
+  "vacuum_cleaner": 0.135,
+  "wardrobe_drawer_open_close": 0.0,
+  "window_open_close": 0.0
+ },
+ "runtime_s": 2.9
+}

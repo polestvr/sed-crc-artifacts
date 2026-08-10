@@ -1,0 +1,40 @@
+{
+ "exp_id": "i45-cse-valtuned",
+ "config": {
+  "exp_id": "i45-cse-valtuned",
+  "variant": "csebb",
+  "route": "valtuned",
+  "grouping": "classwise",
+  "matching": "intersect70",
+  "alpha": 0.45,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 23,
+  "mean_miss_share": 0.45835183733947416,
+  "q95_miss_share": 0.4737530168946098,
+  "fp_per_h_mean": 642.3246342369604,
+  "fp_per_h_std": 15.526961919939328
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.646,
+  "coffee_machine": 0.873,
+  "cutlery_dishes": 0.741,
+  "door_open_close": 0.291,
+  "footsteps": 0.716,
+  "keyboard_typing": 0.9560000000000001,
+  "keychain": 0.557,
+  "light_switch": 0.0,
+  "microwave": 0.752,
+  "phone_ringing": 0.879,
+  "running_water": 0.967,
+  "toilet_flushing": 0.937,
+  "vacuum_cleaner": 0.9510000000000001,
+  "wardrobe_drawer_open_close": 0.051000000000000004,
+  "window_open_close": 0.044
+ },
+ "runtime_s": 0.8
+}

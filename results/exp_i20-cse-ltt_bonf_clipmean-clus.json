@@ -1,0 +1,41 @@
+{
+ "exp_id": "i20-cse-ltt_bonf_clipmean-clus",
+ "config": {
+  "exp_id": "i20-cse-ltt_bonf_clipmean-clus",
+  "variant": "csebb",
+  "route": "ltt_bonf_clipmean",
+  "grouping": "clustered",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.14777826700725386,
+  "q95_miss_share": 0.17062200108781098,
+  "fp_per_h_mean": 2378.61355689413,
+  "fp_per_h_std": 1138.4912745982795
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.065,
+  "coffee_machine": 0.065,
+  "cutlery_dishes": 0.012,
+  "door_open_close": 0.012,
+  "footsteps": 0.012,
+  "keyboard_typing": 0.123,
+  "keychain": 0.098,
+  "light_switch": 0.042,
+  "microwave": 0.084,
+  "phone_ringing": 0.074,
+  "running_water": 0.125,
+  "toilet_flushing": 0.065,
+  "vacuum_cleaner": 0.065,
+  "wardrobe_drawer_open_close": 0.053,
+  "window_open_close": 0.10400000000000001
+ },
+ "runtime_s": 2.4
+}

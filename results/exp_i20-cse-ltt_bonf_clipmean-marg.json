@@ -1,0 +1,40 @@
+{
+ "exp_id": "i20-cse-ltt_bonf_clipmean-marg",
+ "config": {
+  "exp_id": "i20-cse-ltt_bonf_clipmean-marg",
+  "variant": "csebb",
+  "route": "ltt_bonf_clipmean",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.15767502992027355,
+  "q95_miss_share": 0.17812155765598697,
+  "fp_per_h_mean": 887.4943624757801,
+  "fp_per_h_std": 180.18207630005895
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.043000000000000003,
+  "coffee_machine": 0.043000000000000003,
+  "cutlery_dishes": 0.043000000000000003,
+  "door_open_close": 0.043000000000000003,
+  "footsteps": 0.043000000000000003,
+  "keyboard_typing": 0.043000000000000003,
+  "keychain": 0.043000000000000003,
+  "light_switch": 0.043000000000000003,
+  "microwave": 0.043000000000000003,
+  "phone_ringing": 0.043000000000000003,
+  "running_water": 0.043000000000000003,
+  "toilet_flushing": 0.043000000000000003,
+  "vacuum_cleaner": 0.043000000000000003,
+  "wardrobe_drawer_open_close": 0.043000000000000003,
+  "window_open_close": 0.043000000000000003
+ },
+ "runtime_s": 1.3
+}

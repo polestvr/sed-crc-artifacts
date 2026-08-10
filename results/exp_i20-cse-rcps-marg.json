@@ -1,0 +1,41 @@
+{
+ "exp_id": "i20-cse-rcps-marg",
+ "config": {
+  "exp_id": "i20-cse-rcps-marg",
+  "variant": "csebb",
+  "route": "rcps_fixedseq",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 81,
+  "mean_miss_share": 0.1867946557193064,
+  "q95_miss_share": 0.207510934190447,
+  "fp_per_h_mean": 457.9911684142146,
+  "fp_per_h_std": 70.79326549027844
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.113,
+  "coffee_machine": 0.113,
+  "cutlery_dishes": 0.113,
+  "door_open_close": 0.113,
+  "footsteps": 0.113,
+  "keyboard_typing": 0.113,
+  "keychain": 0.113,
+  "light_switch": 0.113,
+  "microwave": 0.113,
+  "phone_ringing": 0.113,
+  "running_water": 0.113,
+  "toilet_flushing": 0.113,
+  "vacuum_cleaner": 0.113,
+  "wardrobe_drawer_open_close": 0.113,
+  "window_open_close": 0.113
+ },
+ "runtime_s": 1.7
+}

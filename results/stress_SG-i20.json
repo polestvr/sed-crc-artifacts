@@ -1,0 +1,121 @@
+{
+ "config": {
+  "exp_id": "SG-i20",
+  "variant": "csebb",
+  "route": "ltt_split_clipmean",
+  "grouping": "marginal",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "n_splits": 100,
+  "top_envs": 6,
+  "matching": "intersect50"
+ },
+ "overall": {
+  "n_splits": 100,
+  "n_ok": 96,
+  "mean_miss": 0.16882302908779784,
+  "q95_miss": 0.19695107122379404,
+  "fp_per_h_mean": 706.0237524131045
+ },
+ "groups": {
+  "device/ios": {
+   "n_splits": 100,
+   "n_ok": 100,
+   "mean_miss": 0.16220820488607704,
+   "q95_miss": 0.18907767523621183,
+   "fp_per_h_mean": 728.3617061802656,
+   "mean_events_per_split": 1141.45,
+   "n_clips_total": 473
+  },
+  "device/android": {
+   "n_splits": 100,
+   "n_ok": 96,
+   "mean_miss": 0.17106469363291857,
+   "q95_miss": 0.19946877912395156,
+   "fp_per_h_mean": 683.6710029122233,
+   "mean_events_per_split": 1115.08,
+   "n_clips_total": 432
+  },
+  "device/other": {
+   "n_splits": 100,
+   "n_ok": 59,
+   "mean_miss": 0.18835043740554128,
+   "q95_miss": 0.23269493844049247,
+   "fp_per_h_mean": 702.736995336776,
+   "mean_events_per_split": 258.58,
+   "n_clips_total": 102
+  },
+  "placement/static": {
+   "n_splits": 100,
+   "n_ok": 100,
+   "mean_miss": 0.1529062372709314,
+   "q95_miss": 0.17606563292800279,
+   "fp_per_h_mean": 672.1598171732105,
+   "mean_events_per_split": 1263.28,
+   "n_clips_total": 546
+  },
+  "placement/mobile": {
+   "n_splits": 100,
+   "n_ok": 81,
+   "mean_miss": 0.18486179550578177,
+   "q95_miss": 0.21843404777641395,
+   "fp_per_h_mean": 746.7660089039468,
+   "mean_events_per_split": 1251.83,
+   "n_clips_total": 461
+  },
+  "env/kitchen": {
+   "n_splits": 100,
+   "n_ok": 100,
+   "mean_miss": 0.1534444938904367,
+   "q95_miss": 0.18341369440774988,
+   "fp_per_h_mean": 692.4447295713816,
+   "mean_events_per_split": 778.59,
+   "n_clips_total": 296
+  },
+  "env/bedroom": {
+   "n_splits": 100,
+   "n_ok": 100,
+   "mean_miss": 0.16012468259294163,
+   "q95_miss": 0.1892808764940239,
+   "fp_per_h_mean": 688.7716966437255,
+   "mean_events_per_split": 507.52,
+   "n_clips_total": 211
+  },
+  "env/hallway": {
+   "n_splits": 100,
+   "n_ok": 28,
+   "mean_miss": 0.2175639268518358,
+   "q95_miss": 0.2556016778272884,
+   "fp_per_h_mean": 864.5170368839645,
+   "mean_events_per_split": 575.29,
+   "n_clips_total": 191
+  },
+  "env/living_room": {
+   "n_splits": 100,
+   "n_ok": 42,
+   "mean_miss": 0.20507119915853397,
+   "q95_miss": 0.24037373737373735,
+   "fp_per_h_mean": 744.7891782812809,
+   "mean_events_per_split": 378.94,
+   "n_clips_total": 155
+  },
+  "env/office": {
+   "n_splits": 100,
+   "n_ok": 100,
+   "mean_miss": 0.10684172023947269,
+   "q95_miss": 0.13362337355606133,
+   "fp_per_h_mean": 673.6801932291984,
+   "mean_events_per_split": 289.05,
+   "n_clips_total": 120
+  },
+  "env/bathroom": {
+   "n_splits": 100,
+   "n_ok": 92,
+   "mean_miss": 0.16097695455878544,
+   "q95_miss": 0.2108799529515548,
+   "fp_per_h_mean": 614.4893167167402,
+   "mean_events_per_split": 224.89,
+   "n_clips_total": 99
+  }
+ }
+}

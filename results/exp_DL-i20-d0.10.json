@@ -1,0 +1,41 @@
+{
+ "exp_id": "DL-i20-d0.10",
+ "config": {
+  "exp_id": "DL-i20-d0.10",
+  "variant": "csebb",
+  "route": "ltt_split_clipmean",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.1,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 95,
+  "mean_miss_share": 0.17342108852157886,
+  "q95_miss_share": 0.20001196976480487,
+  "fp_per_h_mean": 637.1190280628151,
+  "fp_per_h_std": 182.10364071991833
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.077,
+  "coffee_machine": 0.077,
+  "cutlery_dishes": 0.077,
+  "door_open_close": 0.077,
+  "footsteps": 0.077,
+  "keyboard_typing": 0.077,
+  "keychain": 0.077,
+  "light_switch": 0.077,
+  "microwave": 0.077,
+  "phone_ringing": 0.077,
+  "running_water": 0.077,
+  "toilet_flushing": 0.077,
+  "vacuum_cleaner": 0.077,
+  "wardrobe_drawer_open_close": 0.077,
+  "window_open_close": 0.077
+ },
+ "runtime_s": 1.3
+}

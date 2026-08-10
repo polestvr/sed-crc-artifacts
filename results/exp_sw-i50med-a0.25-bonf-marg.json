@@ -1,0 +1,42 @@
+{
+ "exp_id": "sw-i50med-a0.25-bonf-marg",
+ "config": {
+  "exp_id": "sw-i50med-a0.25-bonf-marg",
+  "variant": "medfilt",
+  "route": "ltt_bonf_clipmean",
+  "margin": 0.0,
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.25,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 99,
+  "mean_miss_share": 0.21512257671580687,
+  "q95_miss_share": 0.23824496052248517,
+  "fp_per_h_mean": 206.9634617043709,
+  "fp_per_h_std": 21.79468047528767
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.202,
+  "coffee_machine": 0.202,
+  "cutlery_dishes": 0.202,
+  "door_open_close": 0.202,
+  "footsteps": 0.202,
+  "keyboard_typing": 0.202,
+  "keychain": 0.202,
+  "light_switch": 0.202,
+  "microwave": 0.202,
+  "phone_ringing": 0.202,
+  "running_water": 0.202,
+  "toilet_flushing": 0.202,
+  "vacuum_cleaner": 0.202,
+  "wardrobe_drawer_open_close": 0.202,
+  "window_open_close": 0.202
+ },
+ "runtime_s": 1.3
+}

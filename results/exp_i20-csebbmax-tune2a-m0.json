@@ -1,0 +1,42 @@
+{
+ "exp_id": "i20-csebbmax-tune2a-m0",
+ "config": {
+  "exp_id": "i20-csebbmax-tune2a-m0",
+  "variant": "csebbmax",
+  "route": "valtuned_alpha",
+  "margin": 0.0,
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 82,
+  "mean_miss_share": 0.19297232617603868,
+  "q95_miss_share": 0.20401976276226919,
+  "fp_per_h_mean": 325.98791411463486,
+  "fp_per_h_std": 9.028690695983807
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.231,
+  "coffee_machine": 0.231,
+  "cutlery_dishes": 0.231,
+  "door_open_close": 0.231,
+  "footsteps": 0.231,
+  "keyboard_typing": 0.231,
+  "keychain": 0.231,
+  "light_switch": 0.231,
+  "microwave": 0.231,
+  "phone_ringing": 0.231,
+  "running_water": 0.231,
+  "toilet_flushing": 0.231,
+  "vacuum_cleaner": 0.231,
+  "wardrobe_drawer_open_close": 0.231,
+  "window_open_close": 0.231
+ },
+ "runtime_s": 0.8
+}

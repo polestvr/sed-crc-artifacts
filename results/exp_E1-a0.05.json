@@ -1,0 +1,39 @@
+{
+ "exp_id": "E1-a0.05",
+ "config": {
+  "exp_id": "E1-a0.05",
+  "variant": "medfilt",
+  "route": "crc_naive",
+  "grouping": "marginal",
+  "alpha": 0.05,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 0,
+  "mean_miss_share": 0.506114684796275,
+  "q95_miss_share": 0.5218751343219428,
+  "fp_per_h_mean": 415.99584385012446,
+  "fp_per_h_std": 15.824222328592807
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.357,
+  "coffee_machine": 0.357,
+  "cutlery_dishes": 0.357,
+  "door_open_close": 0.357,
+  "footsteps": 0.357,
+  "keyboard_typing": 0.357,
+  "keychain": 0.357,
+  "light_switch": 0.357,
+  "microwave": 0.357,
+  "phone_ringing": 0.357,
+  "running_water": 0.357,
+  "toilet_flushing": 0.357,
+  "vacuum_cleaner": 0.357,
+  "wardrobe_drawer_open_close": 0.357,
+  "window_open_close": 0.357
+ },
+ "runtime_s": 1.2
+}

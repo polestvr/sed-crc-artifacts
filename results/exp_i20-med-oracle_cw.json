@@ -1,0 +1,40 @@
+{
+ "exp_id": "i20-med-oracle_cw",
+ "config": {
+  "exp_id": "i20-med-oracle_cw",
+  "variant": "medfilt",
+  "route": "oracle_cw",
+  "grouping": "marginal",
+  "matching": "intersect50",
+  "alpha": 0.2,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100
+ },
+ "summary": {
+  "gate_pass": false,
+  "n_splits_ok": 0,
+  "mean_miss_share": 0.22786563818710953,
+  "q95_miss_share": 0.23667126759431742,
+  "fp_per_h_mean": 231.80232194576797,
+  "fp_per_h_std": 21.08697281833725
+ },
+ "mean_lam_per_class": {
+  "bell_ringing": 0.387,
+  "coffee_machine": 0.28200000000000003,
+  "cutlery_dishes": 0.325,
+  "door_open_close": 0.146,
+  "footsteps": 0.152,
+  "keyboard_typing": 0.9530000000000001,
+  "keychain": 0.109,
+  "light_switch": 0.17300000000000001,
+  "microwave": 0.463,
+  "phone_ringing": 0.498,
+  "running_water": 0.9510000000000001,
+  "toilet_flushing": 0.723,
+  "vacuum_cleaner": 0.9510000000000001,
+  "wardrobe_drawer_open_close": 0.042,
+  "window_open_close": 0.17
+ },
+ "runtime_s": 1.1
+}

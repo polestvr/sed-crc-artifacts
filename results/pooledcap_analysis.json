@@ -1,0 +1,68 @@
+{
+ "i20": {
+  "config": {
+   "variant": "csebbmax",
+   "matching": "intersect50",
+   "alpha": 0.2,
+   "delta": 0.05,
+   "delta_tail_frac": 0.2
+  },
+  "K_mean": 18.4,
+  "K_min": 11,
+  "K_max": 31,
+  "q_up_mean": 0.0243,
+  "tail_freq_ev_mean": 0.003,
+  "tail_event_share_ev_mean": 0.0122,
+  "miss_full_ev_mean": 0.1143,
+  "miss_capped_ev_mean": 0.1142,
+  "fp_per_h_mean": 6434.6,
+  "n_ok_pooled_gate": 100,
+  "fallback_frac": 1.0,
+  "p_min_mean": 0.7094,
+  "p_min_min": 0.4049
+ },
+ "i45": {
+  "config": {
+   "variant": "csebb",
+   "matching": "intersect70",
+   "alpha": 0.45,
+   "delta": 0.05,
+   "delta_tail_frac": 0.2
+  },
+  "K_mean": 18.4,
+  "K_min": 11,
+  "K_max": 31,
+  "q_up_mean": 0.0243,
+  "tail_freq_ev_mean": 0.003,
+  "tail_event_share_ev_mean": 0.0122,
+  "miss_full_ev_mean": 0.2891,
+  "miss_capped_ev_mean": 0.2874,
+  "fp_per_h_mean": 6498.2,
+  "n_ok_pooled_gate": 100,
+  "fallback_frac": 1.0,
+  "p_min_mean": 0.3223,
+  "p_min_min": 0.0671
+ },
+ "c60": {
+  "config": {
+   "variant": "csebb",
+   "matching": "collar",
+   "alpha": 0.6,
+   "delta": 0.05,
+   "delta_tail_frac": 0.2
+  },
+  "K_mean": 18.4,
+  "K_min": 11,
+  "K_max": 31,
+  "q_up_mean": 0.0243,
+  "tail_freq_ev_mean": 0.003,
+  "tail_event_share_ev_mean": 0.0122,
+  "miss_full_ev_mean": 0.422,
+  "miss_capped_ev_mean": 0.4238,
+  "fp_per_h_mean": 6980.2,
+  "n_ok_pooled_gate": 100,
+  "fallback_frac": 1.0,
+  "p_min_mean": 0.2984,
+  "p_min_min": 0.0432
+ }
+}
