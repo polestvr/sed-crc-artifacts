@@ -1,0 +1,42 @@
+{
+ "exp_id": "F1V-i45-med",
+ "config": {
+  "exp_id": "F1V-i45-med",
+  "variant": "medfilt",
+  "route": "valtuned_f1",
+  "margin": 0.0,
+  "grouping": "classwise",
+  "matching": "intersect70",
+  "alpha": 0.45,
+  "delta": 0.05,
+  "cal_frac": 0.5,
+  "n_splits": 100,
+  "seed_base": 0
+ },
+ "summary": {
+  "gate_pass": true,
+  "n_splits_ok": 100,
+  "mean_miss_share": 0.38178507836000497,
+  "q95_miss_share": 0.3951732450084812,
+  "fp_per_h_mean": 155.9964529926214,
+  "fp_per_h_std": 5.886168058704571
+ },
+ "val_f1_lams": {
+  "bell_ringing": 0.367,
+  "coffee_machine": 0.446,
+  "cutlery_dishes": 0.64,
+  "door_open_close": 0.322,
+  "footsteps": 0.493,
+  "keyboard_typing": 0.486,
+  "keychain": 0.34600000000000003,
+  "light_switch": 0.382,
+  "microwave": 0.558,
+  "phone_ringing": 0.40900000000000003,
+  "running_water": 0.726,
+  "toilet_flushing": 0.601,
+  "vacuum_cleaner": 0.6950000000000001,
+  "wardrobe_drawer_open_close": 0.326,
+  "window_open_close": 0.199
+ },
+ "runtime_s": 0.7
+}

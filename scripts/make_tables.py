@@ -27,6 +27,7 @@ ROUTE_LBL = {
     "oracle_cw": "Oracle (class-wise, eval-half)",
     "oracle_marg": "Oracle (marginal, eval-half)",
     "valtuned": "Val-tuned (no correction)",
+    "valtuned_f1": "F1-tuned on val.\\ (uncert.)",
     "valtuned_alpha_m0": "Tune-to-$\\alpha$ on val.\\ (uncert.)",
     "valtuned_alpha_m0.02": "Tune-to-$\\alpha{-}0.02$ on val.\\ (uncert.)",
     "fixed05": "Fixed 0.5",
